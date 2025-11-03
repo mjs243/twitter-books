@@ -1,0 +1,4 @@
+replace this with a markdown version
+look more human, avoid 429 errors
+specify download directory for json
+integrate text parsing python? scripts
