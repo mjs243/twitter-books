@@ -1,0 +1,8 @@
+2025-11-02 23:08:25,209 - INFO - opening twitter for manual login...
+2025-11-02 23:08:27,771 - INFO - please log in manually in the browser window
+2025-11-02 23:08:27,772 - INFO - waiting for login to complete...
+2025-11-02 23:08:32,790 - INFO - waiting for login... (0/300 seconds)
+2025-11-02 23:09:32,884 - INFO - waiting for login... (30/300 seconds)
+2025-11-02 23:10:33,044 - INFO - waiting for login... (60/300 seconds)
+2025-11-02 23:11:33,167 - INFO - waiting for login... (90/300 seconds)
+2025-11-02 23:11:56,808 - ERROR - scraping error: Page.wait_for_timeout: Target page, context or browser has been closed

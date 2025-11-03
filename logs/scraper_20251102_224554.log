@@ -1,0 +1,3 @@
+2025-11-02 22:45:54,400 - INFO - starting scrape with target domains: ['github.com', 'arxiv.org', 'youtube.com']
+2025-11-02 22:45:55,661 - INFO - logging in...
+2025-11-02 22:45:59,266 - ERROR - scraping error: Page.wait_for_selector: Target page, context or browser has been closed

@@ -1,0 +1,5 @@
+2025-11-02 23:03:08,220 - INFO - logging in...
+2025-11-02 23:03:24,530 - ERROR - scraping error: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("input[type=\"password\"]") to be visible
+
