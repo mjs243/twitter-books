@@ -1,0 +1,3321 @@
+{
+  "config": {
+    "targetDomains": [
+      "transfer.it",
+      "gofile.io",
+      "hubcloud.fit",
+      "drive.google.com",
+      "mega.nz",
+      "boxd.it"
+    ],
+    "includePatterns": [
+      "documentary",
+      "film",
+      "cinema",
+      "35mm",
+      "imax",
+      "1080p",
+      "remux",
+      "hd",
+      "uhd",
+      "4k",
+      "gb"
+    ],
+    "minScrollDelay": 3000,
+    "maxScrollDelay": 15000,
+    "delayAfter429": 60000,
+    "delayIncrement": 1000,
+    "batchPauseEvery": 5,
+    "batchPauseTime": 30000,
+    "maxScrolls": 500,
+    "simulateReading": true,
+    "randomizeDelays": true,
+    "autoSave": true,
+    "saveEvery": 10,
+    "continueOnError": true
+  },
+  "stats": {
+    "total": 0,
+    "withYears": 149,
+    "withMovies": 17,
+    "withDomains": 0,
+    "errors": [],
+    "quotesFound": 0,
+    "quotesMatched": 16,
+    "quotesFiltered": 0
+  },
+  "tweets": [
+    {
+      "id": "1988229077443203317",
+      "author": "Shanaka Anslem Perera ",
+      "text": "THEY’RE BUILDING THE MACHINE THAT ENDS CAPITALISM AS WE KNOW IT\n\nOpenAI needs $1.4 trillion. Not wants. NEEDS.\n\nTheir $20 billion revenue today must become $650 billion or the entire operation collapses. That’s 32x growth in 5 years while their flagship model already ranks 95th",
+      "links": [],
+      "quoted_author": "zerohedge",
+      "quoted_text": "\"to drive a 10% return on our modeled AI investments through 2030 would require $650 billion of annual revenue into perpetuity which is an astonishingly large number. For context that equates to $180/month from every NFLX subscriber\"- JPM\n\nThat's why Sam is begging for a bailout x.com/zerohedge/stat…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/shanaka86/status/1988229077443203317",
+      "scraped_at": "2025-11-12T06:00:00.071Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1988301865503838635",
+      "author": "ₕₐₘₚₜₒₙ",
+      "text": "34%…",
+      "links": [],
+      "quoted_author": "Kalshi",
+      "quoted_text": "BREAKING: Searches for “second job” reach a new all-time high\n\n34% chance of a recession by 2026",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/hamptonism/status/1988301865503838635",
+      "scraped_at": "2025-11-12T06:00:00.072Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1988346449139298569",
+      "author": "Ripper's Archive",
+      "text": "Dragon Ball (1986-1989)\n\nComplete Series\n\nOne Hundred Fifty-Three Episodes\nTwo Special Episodes\n\n480p (509.99GB)\n\n&\nthe manga\n\nDragon Ball (1984-1995)\n\nComplete Series\n\n42 Volumes\nFull Color\n(27.01GB)\n\n(there are lots of free manga/comic reader apps)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/1Yf4qh9zBLyD\n&\n\nhttps://\ntransfer.it/t/J1gfa50nDD7J",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1988346449139298569",
+      "scraped_at": "2025-11-12T06:00:03.087Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1988342438449344718",
+      "author": "gazing",
+      "text": "essential cinema by women, here's my list + downloads\n\nhttp://\ntransfer.it/t/IlpSmi4FHZzK\n\nhttp://\nboxd.it/Q3qG8$DXcLLRBq\nPwgoc9Sb\n…\nhers sucks—she seems only interested in girl films that either curate modern, relatable girl pathos/pain or deal in blithe romances\nall kinds of women make all kinds of movies...",
+      "links": [],
+      "quoted_author": "A24",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/mystickspirals/status/1988342438449344718",
+      "scraped_at": "2025-11-12T06:00:03.087Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987990726475751696",
+      "author": "Blasko",
+      "text": "OMG PETER JACKSON'S KING KONG: THE OFFICIAL GAME OF THE MOVIE HI!!!!",
+      "links": [],
+      "quoted_author": "RohanKar",
+      "quoted_text": "https://\ngofile.io/d/D1xx6y\nPeter Jackson's King Kong: The Official Game of the Movie: Signature Edition (2005)\nRemoved DRM to make it run on modern system without breaking the whole system with \nCheck readme for instructions before playing\nExtract and Enjoy",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/blasko_art/status/1987990726475751696",
+      "scraped_at": "2025-11-12T06:00:03.089Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987630340207149211",
+      "author": "Bree",
+      "text": "Jim Carrey is pickled hunny!",
+      "links": [],
+      "quoted_author": "Culture Base",
+      "quoted_text": "Jim Carrey and Taylor Momsen reunite for the first time since filming The Grinch, 25 years ago.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/goldlattes/status/1987630340207149211",
+      "scraped_at": "2025-11-12T06:00:07.092Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987794603982938338",
+      "author": "Jan Rosenow",
+      "text": "Solar’s price drop is astonishing: panels are now 98% cheaper than when I first analyzed them in 2004.\n\nToday, building a fence with solar can be cheaper than using wood.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/janrosenow/status/1987794603982938338",
+      "scraped_at": "2025-11-12T06:00:07.093Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987548791084642384",
+      "author": "“not Reos”",
+      "text": "Yoga literally saves lives , these are my faves that I’ve been watching since 2021 :)",
+      "links": [],
+      "quoted_author": "Splenda Pappy",
+      "quoted_text": "Some creators I’ve really been enjoying lately!  x.com/iietkynes/stat…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/NotHreos67/status/1987548791084642384",
+      "scraped_at": "2025-11-12T06:00:07.093Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987661816110121007",
+      "author": "Ripper's Archive",
+      "text": "The Green Mile (1999)\n\n4K (31.87GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/qeYXqs1XBZQR",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1987661816110121007",
+      "scraped_at": "2025-11-12T06:00:12.110Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987662113704403123",
+      "author": "Ripper's Delight",
+      "text": "Ballerina (2025)\n\n4K UHD Remux (72.84GB)\n\n4K (21.61GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Dd7Eag0DTTTK",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1987662113704403123",
+      "scraped_at": "2025-11-12T06:00:12.110Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987272931169202303",
+      "author": "clube do drive",
+      "text": "Thirst - Sede de Sangue (2009)\n- Park Chan-wook\n- Drama/Terror/Thriller \n- 2h13m\n- \n\ndrive/torrent legendado (eng/fre/ptbr/spa subs)",
+      "links": [],
+      "quoted_author": "clube links",
+      "quoted_text": "remove the space \n\n\nhttps://\ndrive.google.com/drive/folders/\n11PrAgEGkcc1JA-Bmrko-qeWDiMgtGG0C\n…\n\nhttps: //yts.mx/movies/thirst-2009",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/clubedodrivee/status/1987272931169202303",
+      "scraped_at": "2025-11-12T06:00:12.110Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987477976024268831",
+      "author": "Juan Alegre-Arnau",
+      "text": "THE ASSASSIN [JAPANESE EXTENDED CUT]\nHou Hsiao Hsien\n2015\n\nFILE: \nhttps://\ntransfer.it/t/huOgykwhkLwT",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/arnau_alegre/status/1987477976024268831",
+      "scraped_at": "2025-11-12T06:00:12.110Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987546803563102493",
+      "author": "cabana",
+      "text": "Silent Hill (1999) - PC\n\nModern Controller Support\n60 Fps Option\nUp to 8K Resolution\nInstructions included in the files (readme & readme2)\n\nBonus:\nSilent Hill (1999) Original Soundtrack\nPTBR fansub version\nUSA released version\n\n\nhttps://\ngofile.io/d/V3R9pS",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/cabanadrives3/status/1987546803563102493",
+      "scraped_at": "2025-11-12T06:00:12.110Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987546005244612756",
+      "author": "Scott Barber",
+      "text": "It will never cease to boggle my mind just how recent segregation was.",
+      "links": [],
+      "quoted_author": "Fascinating",
+      "quoted_text": "Ella Fitzgerald arrested after singing to an integrated audience in 1955",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/thescottbarber/status/1987546005244612756",
+      "scraped_at": "2025-11-12T06:00:12.110Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987618503638102388",
+      "author": "evan loves worf",
+      "text": "Woke is back",
+      "links": [],
+      "quoted_author": "Culture Crave",
+      "quoted_text": "‘Christy’ starring Sydney Sweeney opens to $1.3M at the domestic box office \n\n• Top 10 worst opening weekend ever for a film in over 2,000 theaters\n\n• ~$646 per-theater average",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/esjesjesj/status/1987618503638102388",
+      "scraped_at": "2025-11-12T06:00:18.114Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987351155635056940",
+      "author": "d4nb0y",
+      "text": "They Cloned Tyrone (2023) - 1080p\n\nhttps://\nboxd.it/rE7a\n\n\nhttps://\ntransfer.it/t/PNJ46d1lgbCA",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/dd4nd4nn/status/1987351155635056940",
+      "scraped_at": "2025-11-12T06:00:18.114Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1987362150948716854",
+      "author": "Ripper's Archive",
+      "text": "Aqua Teen Hunger Force (2000-2015)\n\nSeries (22.31GB total)\n\nSeasons 1-4\n480p (8.49GB)\n\nSeasons 5-11\n1080p (13.82GB)\n\nand\nthe movie film for theaters:\n\nAqua Teen Hunger Force Colon Movie Film for Theaters (2007)\n1080p (1.56GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/2Bjwq19FwBrb\n/f8tDxRha\n…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1987362150948716854",
+      "scraped_at": "2025-11-12T06:00:25.121Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986749260994605390",
+      "author": "Ripper's Archive",
+      "text": "X-Men Cartoon Collection (1989-2009)\n\nX-Men: Pryde of the X-Men (Original 1989 Pilot)\n480p (136MB)\n\nX-Men: The Animated Series (1992-1997)\n480p (18GB)\n\nX-Men Evolution (2000-2003)\n480p (9GB)\n\nWolverine and the X-Men (2008-2009)\n720p (7GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/ov63H89lzZbB",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986749260994605390",
+      "scraped_at": "2025-11-12T06:00:33.124Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986973747614740611",
+      "author": "Ripper's Archive",
+      "text": "Be Kind Rewind (2008)\n\n1080p (1.88GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Z1efi9sRGDYY",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986973747614740611",
+      "scraped_at": "2025-11-12T06:00:33.124Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986746942450213036",
+      "author": "cabana.",
+      "text": "Frankenstein (2025)\n\n1080p (4K coming soon)\n\nsubs: 50+ languages\n\nBonus:\nMary Shelley's Frankenstein novel (1818)\nFrankenstein (1931)\nBride Of Frankenstein (1935)",
+      "links": [],
+      "quoted_author": "cabana links",
+      "quoted_text": "FRANKENSTEIN COLLECTION \n\n\nhttps://\ngofile.io/d/6hEpLc",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/CabanaDrives2/status/1986746942450213036",
+      "scraped_at": "2025-11-12T06:00:33.124Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986513818873213351",
+      "author": "the blonde ichiban",
+      "text": "“people hate Kim for no reason” well…",
+      "links": [],
+      "quoted_author": "Louis Pisano",
+      "quoted_text": "ICYMI: Kim Kardashian & SKIMS are set to open 15 stores across Israel by 2026 in partnership with Irani Corp. Online sales launch Nov. 10 with in-store spaces at selected Factory 54 outlets starting in December.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/niaws_t/status/1986513818873213351",
+      "scraped_at": "2025-11-12T06:00:42.127Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986604037459107864",
+      "author": "Ripper's Archive",
+      "text": "Bloodsport (1988)\n\n4K (21.49GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/PLzALw1DlJpQ",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986604037459107864",
+      "scraped_at": "2025-11-12T06:00:42.128Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986519550305935756",
+      "author": "Ripper's Archive",
+      "text": "Judge Dredd (1995)\n\n1080p (3.89GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/98WjGw9HmTDb",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986519550305935756",
+      "scraped_at": "2025-11-12T06:00:42.128Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986531363177308256",
+      "author": "gazing",
+      "text": "https://\ntransfer.it/t/mlQ2DipjhZZI\nShahrukh Khan film collection - 165.15GB\n46 films, all in 1080p or best available\nCouldn't get these out in time for his bday but oh well\nFull list here: \nhttps://\nboxd.it/PXIYs$CNIJmKCG\nqvnaATdK\n…\nabout half his filmography, you can find most of the rest on Youtube\nEnjoy ^_^",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/mystickspirals/status/1986531363177308256",
+      "scraped_at": "2025-11-12T06:00:42.128Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986079929499271428",
+      "author": "The Anonymous Nobody",
+      "text": "The Mohawk era is one of the darkest times in recorded history",
+      "links": [],
+      "quoted_author": "fyeclips",
+      "quoted_text": "Gucci Mane & Zaytoven in the studio making “Chicken Talk” (2006)",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/el_budget/status/1986079929499271428",
+      "scraped_at": "2025-11-12T06:00:52.130Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986543090023473415",
+      "author": "Ripper's Delight",
+      "text": "Shin Godzilla (2016)\n\n4K UHD Remux (82.44GB)\n\nI previously shared my remux hybrid of the JPN 4K UHD release; this one is the new US release. It has better subtitles than my hybrid!! If you got my hybrid, replace it with this superior version!",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/IMvdi4lDjbDK",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1986543090023473415",
+      "scraped_at": "2025-11-12T06:00:52.130Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986460030363975847",
+      "author": "clube do drive",
+      "text": "Hong Kong cinema is just mafia and people beating each other up ",
+      "links": [],
+      "quoted_author": "clube do drive",
+      "quoted_text": "City on Fire - Extreme Danger (1987)\n- Ringo Lam Ling-Tung\n- Action/Crime/Thriller \n- 1h41m\n- \n\ndrive/torrent legendado (eng/fre/ptbr subs) x.com/linksdoclube/s…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/clubedodrivee/status/1986460030363975847",
+      "scraped_at": "2025-11-12T06:00:52.131Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986173634826944815",
+      "author": "Ripper's Delight",
+      "text": "Last Action Hero - Uncut (1993)\n\n4K UHD Remux (76.45GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/WqIPKl8VXZZY",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1986173634826944815",
+      "scraped_at": "2025-11-12T06:01:03.133Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986084453060378923",
+      "author": "Dr. Sapirstein",
+      "text": "𝐏𝐇𝐀𝐍𝐓𝐎𝐌 𝐎𝐅 𝐓𝐇𝐄 𝐏𝐀𝐑𝐀𝐃𝐈𝐒𝐄\nBrian De Palma's unreleased, uncensored original version · \nDigital reconstruction · \nDeleted footage courtesy of The Swan Archives · \nHD download : \nhttp://\ndrsapirstein.blogspot.com \n\n#Download #HD #DePalma #Phantom #Cinema #Musical #Unreleased",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/DocSapEdit/status/1986084453060378923",
+      "scraped_at": "2025-11-12T06:01:03.133Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986180034730799219",
+      "author": "DamienNew",
+      "text": "Paul with his gf and her friends at his birthday dinner, his own daughter not much younger. His gfs friends look terrified, he was a monster.",
+      "links": [],
+      "quoted_author": "g.",
+      "quoted_text": "Paul Walker is like the ONE pedophile you CANNOT talk about. Like people will kill you if you point out his very public history of dating CHILDREN when he was in his 30s. He was 33 dating a 16 year old. Another girl he was with when she was 16 and he was in his 20s.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/LanasMonster1/status/1986180034730799219",
+      "scraped_at": "2025-11-12T06:01:03.133Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986267305643524414",
+      "author": "Ran",
+      "text": "Harakiri (1962)\n1080p Eureka Blu-Ray (w/ extras)\n6.03 GB\n\n\nhttps://\ntransfer.it/t/F2Fco0gzFLxD",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/alienprivateeye/status/1986267305643524414",
+      "scraped_at": "2025-11-12T06:01:03.134Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986492211165602059",
+      "author": "florentdrive2",
+      "text": "Hard Boiled (4K restored) \n20GB : \nhttps://\ntransfer.it/t/drUetpoDzTjY",
+      "links": [],
+      "quoted_author": "florent",
+      "quoted_text": "The rumors are true, the new Hard Boiled restauration goes absolutely crazy",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/coltranefanboy/status/1986492211165602059",
+      "scraped_at": "2025-11-12T06:01:15.136Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1977402398063853638",
+      "author": "Ripper's Delight",
+      "text": "Akira (1988) - 1080p Remux (30.59GB), 4K (9.54GB), 4K UHD Remux (77.67GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/vkMxu10jULKb",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1977402398063853638",
+      "scraped_at": "2025-11-12T06:01:15.136Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986307161631441048",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝐻𝑜𝑙𝑙𝑦𝑤𝑜𝑜𝑑 𝐶ℎ𝑎𝑖𝑛𝑠𝑎𝑤 𝐻𝑜𝑜𝑘𝑒𝑟𝑠 (1988)\n\nWhile tracking down a woman a private detective \nruns into a cult of chainsaw-worshipping prostitutes \nled by a mysterious \"The Stranger\".\n\n 1ʜʀ 14ᴍɪɴs • ⎙ 5ɢʙ [1080p] • ♫ ᴇɴɢʟɪsʜ 5.1\n[\nhttps://\ntransfer.it/t/Z3yZPdphwJyC]",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1986307161631441048",
+      "scraped_at": "2025-11-12T06:01:15.136Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986354219931345296",
+      "author": "tuna",
+      "text": "James Bond, 007 Collection (1962 - 2021)\n25 movies\n195.01 GB\n\ncollection by \n@CabanaDrives2\n archived by \n@hotpinkicecube",
+      "links": [],
+      "quoted_author": "tuna",
+      "quoted_text": "https://\ntransfer.it/t/UCnUHa4ljJCT",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/erikyhirai/status/1986354219931345296",
+      "scraped_at": "2025-11-12T06:01:15.137Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985964155543962021",
+      "author": "Ripper's Archive",
+      "text": "Fargo Collection (1996-2024)\n\nThe Movie\nFargo (1996)\n4K UHD Remux (59GB)\n4K (12.71GB)\n\n&\n\nThe TV Series\nFargo (2014-2024)\n1080p (56.35GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/MDzfvtl3GbrT\n&\n\nhttps://\ntransfer.it/t/PqmxP0lxRbQZ",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1985964155543962021",
+      "scraped_at": "2025-11-12T06:01:15.137Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986178046232326481",
+      "author": "Ripper's Archive",
+      "text": "Lost (2004-2010)\n\n1080p (100.04GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Q1wQuptzgbCL",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986178046232326481",
+      "scraped_at": "2025-11-12T06:01:28.139Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986137860131484132",
+      "author": "Joyce ★ ",
+      "text": "Lmfao at this being how I find out this movie starring an actor I love directed by a guy who’s last two movies won 5 total academy awards came out a week ago and like nobody is talking about it. I don’t even like Berger but it’s insane how much Netflix sucks at everything",
+      "links": [],
+      "quoted_author": "HIDEO_KOJIMA",
+      "quoted_text": "Tonight I’m watching “Ballad of a Small Player”, directed by Edward Berger. It’s also Tilda’s birthday.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/illjoy_/status/1986137860131484132",
+      "scraped_at": "2025-11-12T06:01:28.140Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986040839089631510",
+      "author": "Ripper's Delight",
+      "text": "Saturday Night Fever (1977)\n\n4K UHD Remux (57.21GB)\n\n1080p Remux (29.81GB)",
+      "links": [],
+      "quoted_author": "Ripper's Archive",
+      "quoted_text": "Saturday Night Fever (1977) - 1080p Remux (29.81GB) & 4K UHD Remux (57.21GB)\n\n\nhttps://\nx.com/ripperslinks/s\ntatus/1974865357711257954\n…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1986040839089631510",
+      "scraped_at": "2025-11-12T06:01:28.140Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986261466660401356",
+      "author": "florentdrive2",
+      "text": "The Island of Cats (2019, Mitsuaki Iwago)\n1080p BluRay (10GB)\n720p BluRay (4GB)\n\nhttps://\ntransfer.it/t/b4XhEopjlLpS",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1986261466660401356",
+      "scraped_at": "2025-11-12T06:01:28.140Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986222427999793551",
+      "author": "santy",
+      "text": "1080p (1.11 GB) eng subs \n@santodrive3",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/santodrive2/status/1986222427999793551",
+      "scraped_at": "2025-11-12T06:01:42.142Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985898141615603925",
+      "author": "Ripper's Delight",
+      "text": "There Will Be Blood (2007)\n\n1080p Remux (34.66GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/utgJusl3FZyC",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985898141615603925",
+      "scraped_at": "2025-11-12T06:01:42.142Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985959899465933179",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝐓𝒉𝒆 𝐂𝒐𝒎𝒑𝒂𝒏𝒚 𝐨𝒇 𝐖𝒐𝒍𝒗𝒆𝒔 (1984)\n\n 1ʜʀ 35ᴍɪɴs • ⎙ 5.6ɢʙ [2160p HDR] \n♫ ᴇɴɢʟɪsʜ sᴛᴇʀᴇᴏ + ᴇɴɢʟɪsʜ sᴜʙᴛɪᴛʟᴇs\n\n[\nhttps://\ntransfer.it/t/ruaFOcg3WDqZ]",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1985959899465933179",
+      "scraped_at": "2025-11-12T06:01:42.143Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986193633901695160",
+      "author": "Ripper's Archive",
+      "text": "V (1983)\n\nPart 01\n1080p 16:9 (3.14GB)\n\nPart 02\n1080p 4:3 (1.41GB)\n\n",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/eRXye8slxJLa",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986193633901695160",
+      "scraped_at": "2025-11-12T06:01:42.143Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986108794053538260",
+      "author": "tuna",
+      "text": "The Cinema of Agnès Varda (1955 - 2022)\n155.55 GB\n\ncurated by \n@brunolem0n\n \n\nA pioneer of the French New Wave, blending fiction and documentary with humor, empathy, and visual poetry. Her cinema turns everyday life into art, capturing people, places, and memories.",
+      "links": [],
+      "quoted_author": "tuna",
+      "quoted_text": "https://\ntransfer.it/t/QPH2tE0XGL4D < shorts\n\nhttps://\ntransfer.it/t/ktrg9J0xBZ7J < features part 1\n\nhttps://\ntransfer.it/t/36JKkIsx3ZxZ < features part 2",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/erikyhirai/status/1986108794053538260",
+      "scraped_at": "2025-11-12T06:01:42.143Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986099560133841133",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "Oh how times have changed in 20 years..\n\nWe used to have a show where Zoltan from \n𝘋𝘶𝘥𝘦, 𝘞𝘩𝘦𝘳𝘦'𝘴 𝘔𝘺 𝘊𝘢𝘳? told us which sexy \nvideo game girl had the best ASSets ",
+      "links": [],
+      "quoted_author": "𝔻𝚎𝚜𝚒𝚛𝚎",
+      "quoted_text": "𝑮𝟒'𝒔 𝗩𝗜𝗗𝗘𝗢 𝗚𝗔𝗠𝗘 𝗩𝗜𝗫𝗘𝗡𝗦 (2005)\n\na 4-part beauty pageant special featuring female \nvideo game characters competing in categories.\n\n 1ʜʀ 31ᴍɪɴs • ⎙ 1ɢʙ / 500ᴍʙ\nCompilation [\nhttps://\ntransfer.it/t/ReGD6UwFjT4C]\nVHSrip [\nhttps://\ntransfer.it/t/EwQ4uBoTGDZb] \nhttps://\npic.x.com/7unkzD1BGH\nhttps://\npic.x.com/7unkzD1BGH",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1986099560133841133",
+      "scraped_at": "2025-11-12T06:01:42.143Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985855565214716364",
+      "author": "Ripper's Delight",
+      "text": "The Fifth Element (1997)\n\n4K UHD Remux (76.09GB)\n\n1080p 35mm (33.48GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/5AXdyos13DhC",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985855565214716364",
+      "scraped_at": "2025-11-12T06:01:42.143Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985855087152156924",
+      "author": "Ripper's Archive",
+      "text": "The Fortress (2017)\n\n1080p (16.95GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/4m5u208HiJ6D",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1985855087152156924",
+      "scraped_at": "2025-11-12T06:01:42.143Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985876561661206745",
+      "author": "‘",
+      "text": "he really stole her youth and now she’s too old to be bisexual",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "Beyoncé and Lady Gaga having fun on a yacht back in 2009",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/jkbrainrot/status/1985876561661206745",
+      "scraped_at": "2025-11-12T06:01:57.146Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986203015121150379",
+      "author": "santy",
+      "text": "New 4K restoration from the original camera negative\n4K UHD DV HDR Remux + 1080p Remux \n@santodrive3",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/santodrive2/status/1986203015121150379",
+      "scraped_at": "2025-11-12T06:01:57.146Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986188471862763954",
+      "author": "Ripper's Archive",
+      "text": "Genocyber (1994) Collection\n540p\n\nOVA 1: A New Life\n(1GB)\n\nOVA 2: Vajranoid Attack\n(605MB)\n\nOVA 3: Global War\n(615MB)\n\nOVA 4: Legend of the City of the Grand Ark - Part I\n(694MB)\n\nOVA 5: Legend of the City of the Grand Ark - Part II\n(790MB)\n\n",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Xrj6Wtk1RRJL",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1986188471862763954",
+      "scraped_at": "2025-11-12T06:01:57.146Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1986080146600976706",
+      "author": "MavericStar",
+      "text": "F4: FIRST STEPS 4K/1080P IMAX\n\nALSO INCLUDING:-\n-EXTRAS\n-DELETED SCENES\n-GAG REEL\n-COMMENTARY \n-ENJOY:)",
+      "links": [],
+      "quoted_author": "Mavericdrives",
+      "quoted_text": "https://\ntransfer.it/t/SQDtj75BkZgL",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/Mavericstar/status/1986080146600976706",
+      "scraped_at": "2025-11-12T06:01:57.146Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985875601438441924",
+      "author": "Robert Inlakesh",
+      "text": "YouTube deleted all my coverage of Israeli soldiers shooting civilians, including children targeted on a live stream, along with my entire account.\n\nNo community guidelines violated & 3 separate excuses given to me. Then Google deleted my email & won’t respond to appeals.",
+      "links": [],
+      "quoted_author": "Zachary Foster",
+      "quoted_text": "How it started: Don’t be evil\n\nHow it’s going: \n\nhttps://\ntheintercept.com/2025/11/04/you\ntube-google-israel-palestine-human-rights-censorship/\n…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/falasteen47/status/1985875601438441924",
+      "scraped_at": "2025-11-12T06:02:12.149Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985625383874728010",
+      "author": "Ripper's Delight",
+      "text": "The Place Beyond the Pines (2012)\n\n4K UHD Remux (86.48GB)\n\n1080p (3.68GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/pQNPCh1V0JJD",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985625383874728010",
+      "scraped_at": "2025-11-12T06:02:12.150Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982323985074540709",
+      "author": "Ripper's Archive",
+      "text": "Better Call Saul (2015-2022)\n\n4K (111.63GB)\n\n",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/yLpxS4tlzbQa",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1982323985074540709",
+      "scraped_at": "2025-11-12T06:02:12.150Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985794426833174536",
+      "author": "Emir Han",
+      "text": "This Scooby Doo scene was cut from the film because it was too scary.\n\nWhen test audiences first watched it, they felt disturbed by the nature of this scene. \n\nThis scene depicted a possessed Velma chasing for Daphne's soul.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/RealEmirHan/status/1985794426833174536",
+      "scraped_at": "2025-11-12T06:02:12.150Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983217104166805941",
+      "author": "florentdrive2",
+      "text": "Casino Raiders | 至尊無上 (1989, Wong Jing, Jimmy Heung, Corey Yuen)\n1080p BluRay (9GB)\n\nhttps://\ntransfer.it/t/KD151wgFRRhQ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1983217104166805941",
+      "scraped_at": "2025-11-12T06:02:27.152Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984909348275949804",
+      "author": "santy",
+      "text": "1080p (4.39 GB) subs: eng/spa \n@santodrive3",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/santodrive2/status/1984909348275949804",
+      "scraped_at": "2025-11-12T06:02:27.152Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985170526826864762",
+      "author": "santy",
+      "text": "1080p Remux (16.80 GB) eng/ger subs \n@santodrive3",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/santodrive2/status/1985170526826864762",
+      "scraped_at": "2025-11-12T06:02:27.152Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985370253753303476",
+      "author": "Dr. Sapirstein",
+      "text": "𝐁𝐎𝐎𝐊 𝐎𝐅 𝐓𝐇𝐄 𝐃𝐄𝐀𝐃 · \n𝙏𝙝𝙚 𝙀𝙫𝙞𝙡 𝘿𝙚𝙖𝙙 pre-release untampered cut · \n1st time online · \nDigital reconstruction · \nfrom 35mm Open Matte print · \nHD download : \nhttp://\ndrsapirstein.blogspot.com \n\n#Download #HD #SamRaimi #EvilDead #Cinema #Horror #OriginalCut #Unreleased",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/DocSapEdit/status/1985370253753303476",
+      "scraped_at": "2025-11-12T06:02:27.153Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985599887086690665",
+      "author": "Ripper's Delight",
+      "text": "The Holy Mountain (1973)\n\n1080p Remux (29.49GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/vy4dqwk10T6J",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985599887086690665",
+      "scraped_at": "2025-11-12T06:02:27.153Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985894042949898445",
+      "author": "Real Information of Cinema",
+      "text": "John Carpenter - Prince of Darkness [4K Restoration] [+Commentary] (1987)\n\nhttps://\ntransfer.it/t/byDInBsHEJ7b",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/realinfocinema/status/1985894042949898445",
+      "scraped_at": "2025-11-12T06:02:27.153Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985378956971815255",
+      "author": "Taste of Cinema",
+      "text": "When classic noir ended, neo-noir began. We present you the 20 best neo-noir films of the 1970s: \nhttps://\nbuff.ly/1cl4VGM",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/davidcinema/status/1985378956971815255",
+      "scraped_at": "2025-11-12T06:02:27.153Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985800434284696012",
+      "author": "Ripper's Archive",
+      "text": "The Simpsons (1989)\n\n1080p (179.04GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/PrylaxsB2J5Z",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1985800434284696012",
+      "scraped_at": "2025-11-12T06:02:27.153Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985587205226512732",
+      "author": "Nemith",
+      "text": "These transitions between practical puppets and stop motion are pure dopamine for me, and every Amemiya movie I've watched so far has this",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/MarsSuccessor/status/1985587205226512732",
+      "scraped_at": "2025-11-12T06:02:27.153Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985600252418932989",
+      "author": "Ripper's Archive",
+      "text": "PaRappa the Rapper (2001)\n\n480p (3.87GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/9LI2798jSJwJ",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1985600252418932989",
+      "scraped_at": "2025-11-12T06:02:42.156Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1972137629438333145",
+      "author": "Ripper's Archive",
+      "text": "Sinners (2025)\n\n4K (6.14GB) and 4K UHD Remux (66.13GB)\n&\n4K UHD IMAX (66.31GB)\n\n",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/6bzyOo01TRzZ\n&\n\nhttps://\ntransfer.it/t/s1x37klVRZyY",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1972137629438333145",
+      "scraped_at": "2025-11-12T06:02:42.157Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985512936228479270",
+      "author": "santy",
+      "text": "DVDRip (1.57 GB)",
+      "links": [],
+      "quoted_author": "santolink",
+      "quoted_text": "https://\ntransfer.it/t/yf0VZNgDTTTT",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/santodrive2/status/1985512936228479270",
+      "scraped_at": "2025-11-12T06:02:42.157Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985074533183652266",
+      "author": "Black Media History ",
+      "text": "Morgan Freeman in 1971.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/BlackMediaHub/status/1985074533183652266",
+      "scraped_at": "2025-11-12T06:02:42.158Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985393297498804381",
+      "author": "Ripper's Delight",
+      "text": "Pulp Fiction (1994)\n\n4K UHD Remux (77.77GB)\n\n1080p 35mm\n(41.39GB & 9.46GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/JSJpa01DWZrQ",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985393297498804381",
+      "scraped_at": "2025-11-12T06:02:57.162Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985347257995034794",
+      "author": "cabana.",
+      "text": "Back To The Future Trilogy in 35mm Open Matte: \nhttps://\ngofile.io/d/HPKcAo\n\nThe Shining 35mm Open Matte: \nhttps://\ngofile.io/d/UTfyoy\n\nBlade Runner (1982) 35mm: \nhttps://\ngofile.io/d/cofW1l",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/CabanaDrives2/status/1985347257995034794",
+      "scraped_at": "2025-11-12T06:02:57.162Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984813827196629059",
+      "author": "Galarian Borowczyk",
+      "text": "THE FOG (John Carpenter, 1980)\n35mm scan",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/sohamncheese/status/1984813827196629059",
+      "scraped_at": "2025-11-12T06:02:57.162Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985101493419364510",
+      "author": "Ripper's Delight",
+      "text": "Space: 1999 Collection\nAll 1080p Remux\n\nTV Series (1975-77)\n2 seasons, 24 episodes\n(384.69GB)\n\n&\n\nFour TV Movies (1978-82)\nAll presented in both 4:3 & 16:9\n(150.11GB combined)\n\nand bonus!\n\nSpazio: 1999 (1975)\nItalian TV Compilation Film w/ music by Ennio Morricone!!\n16:9 (18GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/WrGtzg8FAZ6Z\n&\n\nhttps://\ntransfer.it/t/ukX2C81RSZoK",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985101493419364510",
+      "scraped_at": "2025-11-12T06:03:12.164Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985132208424673748",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝑉𝔦𝔫𝔠𝔢𝔫𝔱 𝑃𝔯𝔦𝔠𝔢'𝔰 𝔇𝔯𝔞𝔠𝔲𝔩𝔞: 𝑇ℎ𝑒 𝐺𝑟𝑒𝑎𝑡 𝑈𝑛𝑑𝑒𝑎𝑑 (1982)\n\nA documentary told by Vincent Price of the Dracula \nlegend from Bram Stoker's Count to Vlad the Impaler.\n\n 52ᴍɪɴs • ⎙ 740ᴍʙ [480p VHSrip]\n♫ ᴇɴɢʟɪsʜ sᴛᴇʀᴇᴏ\n[\nhttps://\ntransfer.it/t/5SqPLNgzRbrA]",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1985132208424673748",
+      "scraped_at": "2025-11-12T06:03:12.164Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984744179411329328",
+      "author": "Jake",
+      "text": "genuinely one of the greatest posters ever",
+      "links": [],
+      "quoted_author": "CINEMA 505",
+      "quoted_text": "Scooby-Doo, 2002.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/ScoobyScream/status/1984744179411329328",
+      "scraped_at": "2025-11-12T06:03:12.165Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985148960986821014",
+      "author": "Acyn",
+      "text": "Reporter: Changpeng Zhao pled guilty in 2023 to violating anti–money laundering laws. Why did you pardon him?\n\nTrump: Okay, are you ready? I don’t know who he is.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Acyn/status/1985148960986821014",
+      "scraped_at": "2025-11-12T06:03:12.165Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985166126192763058",
+      "author": "Ripper's Archive",
+      "text": "Gantz Collection\n\nManga (2000-2013)\n(14.39GB)\n\nAnime\n\nGantz (2004)\n1080i Remux (73.44GB)\n480p Widescreen DVD Remux (28.03GB)\n\nMovies\n\nGantz (2010)\n1080p (5.61GB)\n\nGantz: Perfect Answer - Extended Cut (2011)\n1080p (12.03GB)\n\nGants: O (2016)\n1080p (w/ many dubs & subs)\n(19.37GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Jr09H09jxZaY",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1985166126192763058",
+      "scraped_at": "2025-11-12T06:03:12.165Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985004968114544734",
+      "author": "Arko | অর্ক",
+      "text": "THE MAN FROM LONDON\n\nIn this folder you'll find\n\n• An English translation of the 1933 novel by Georges Simenon.\n• The 2007 film by Tarr Bela adapted from the novel by him and his collaborator (and 2025 Literature Nobel Laureate) Krasznahorkai Laszlo \n\n\nhttps://\ntransfer.it/t/58aSW01n2JbR",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/films_and_life/status/1985004968114544734",
+      "scraped_at": "2025-11-12T06:03:27.168Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985047802112802843",
+      "author": "felipe",
+      "text": "- Luiz Rosemberg Filho - Complete Filmography\n- 57 films + Rosemberg 70 Catalog - Cinema of Affection 212 pages",
+      "links": [],
+      "quoted_author": "Links - @rssfdv",
+      "quoted_text": "Drive: \nhttps://\ndrive.google.com/drive/folders/\n1LG9zsNbb5YnrDFn7yJzbiG5iQTkCcyWD?usp=sharing\n…\n\nVK Playlist: \nhttps://\nvkvideo.ru/playlist/-2299\n37903_23\n…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rssfdv/status/1985047802112802843",
+      "scraped_at": "2025-11-12T06:03:27.168Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985034531708031343",
+      "author": "Chungking Archive",
+      "text": "A collection\n- 29 films (218 GB)\n- Various qualities w Eng subs\n\nhttps://\ntransfer.it/t/MfKHLv5BRbga\n\nhttps://\ntransfer.it/t/zEvyKzplELAB\n\nhttps://\ntransfer.it/t/ngX6OygjAJqK",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/chungking151994/status/1985034531708031343",
+      "scraped_at": "2025-11-12T06:03:27.169Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984818951566602424",
+      "author": "gazing",
+      "text": "https://\ntransfer.it/t/Bwuti4pF1TAJ\nTakeshi Kitano 1080p collection - 50.72GB\n\nhttps://\nboxd.it/1P2r\nIncludes all his films and a 2013 book chronicling his work as a director\nAlmost all my encodes, Outrage trilogy has hardcoded engsubs\nEnjoy ^_^",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/mystickspirals/status/1984818951566602424",
+      "scraped_at": "2025-11-12T06:03:42.172Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984905160766996487",
+      "author": "Ripper's Archive",
+      "text": "House Party (1990)\n\n1080p (1.66GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/kr3Cfk0lhLSY",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1984905160766996487",
+      "scraped_at": "2025-11-12T06:03:42.172Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985020027796357131",
+      "author": "florentdrive2",
+      "text": "Suzaku (1997, Naomi Kawase)\n2160p WEB-DL (8GB)\n\nhttps://\ntransfer.it/t/4w0hoh4RUDgL",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1985020027796357131",
+      "scraped_at": "2025-11-12T06:03:42.172Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984797432916722160",
+      "author": "Ripper's Delight",
+      "text": "The Proposition (2005)\n\n4K UHD Remux (65.63GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/V7gkq98DWBhR",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1984797432916722160",
+      "scraped_at": "2025-11-12T06:03:42.172Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985036658895646972",
+      "author": "Ripper's Delight",
+      "text": "Oppenheimer (2023)\n\n4K IMAX (117.89GB)\n\n4K UHD Remux (82.98GB)\n\n4K (41.83GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/8uxW7t0TxZaB",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1985036658895646972",
+      "scraped_at": "2025-11-12T06:03:42.172Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984909796164698541",
+      "author": "tuna",
+      "text": "The Cinema of Akira Kurosawa (1943 - 1993)\n\nALL filmography:  30 feature-movies\nmultiple subs\n73.39 GB",
+      "links": [],
+      "quoted_author": "tuna",
+      "quoted_text": "https://\ntransfer.it/t/HkzqEY1hAbYC",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/erikyhirai/status/1984909796164698541",
+      "scraped_at": "2025-11-12T06:03:42.173Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984989801313861683",
+      "author": "josesarmientohinojosa ",
+      "text": "Amazing things are happening in Film Twitter ",
+      "links": [],
+      "quoted_author": "cabana.",
+      "quoted_text": "The Dario Argento Collection\n15 Films \n4 4K Versions\n4 Alternate/Director's Cuts\n\n\nhttps://\ngofile.io/d/Q3h5qv",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/xzetaprobe/status/1984989801313861683",
+      "scraped_at": "2025-11-12T06:03:42.173Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985060817574998275",
+      "author": "gazing",
+      "text": "https://\ntransfer.it/t/ScWdXlpDnRAQ\nChild's Play / Chucky film collection - 34.87GB\n\nhttps://\nletterboxd.com/films/in/child\ns-play-collection\n…\n7 films: 1080p encodes of the 4K releases for the original trilogy, proper 4K encodes for Bride / Seed / Curse / Cult of Chucky\nLots of commentary tracks for every film\nEnjoy ^_^",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/mystickspirals/status/1985060817574998275",
+      "scraped_at": "2025-11-12T06:03:57.175Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984955763664560406",
+      "author": "The Night of the Dougnter",
+      "text": "Holy shit this shot is insane",
+      "links": [],
+      "quoted_author": "Men on Film Pod",
+      "quoted_text": "Hollywood 90028 (1973) dir. Christina Hornisher",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/TheDougFiles/status/1984955763664560406",
+      "scraped_at": "2025-11-12T06:03:57.175Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984900224264126676",
+      "author": "Ripper's Delight",
+      "text": "2001: A Space Odyssey (1968)\n\n4K UHD Remux (73.1GB)\n\n4K (7.5GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ngofile.io/d/zGfZOH",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1984900224264126676",
+      "scraped_at": "2025-11-12T06:03:57.175Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985084149775126713",
+      "author": "𝘾𝙤𝙤𝙥'𝙨 𝙑𝙞𝙙𝙚𝙤",
+      "text": "HORSE GIRL (2020) Jeff Baena/Alison Brie\nHD x264/5.1 AC3/Multi- Sub [Webrip] 3gb",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/MrCoopersVideo/status/1985084149775126713",
+      "scraped_at": "2025-11-12T06:03:57.175Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1985145520290197625",
+      "author": "florentdrive2",
+      "text": "Synecdoche, New York (2008, Charlie Kaufman)\n4K BluRay REMUX (47GB)\n1080p BluRay (5GB)\n\nhttps://\ntransfer.it/t/K8Bi9sxzQB6R",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1985145520290197625",
+      "scraped_at": "2025-11-12T06:03:57.175Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984734706735157625",
+      "author": "Vinícius Medeiros",
+      "text": "I just uploaded a repack of the 1999 PC port of the South Park FPS developed by Iguana Entertainment, I got asked by someone to do it and here it is.\n\nThe game is working with compatibility fixes, controller support and CD Music. Link bellow:",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/VinciusMedeiro6/status/1984734706735157625",
+      "scraped_at": "2025-11-12T06:04:12.178Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984333724042084468",
+      "author": "DiscussingFilm",
+      "text": "First look at the return of ‘FEAR FACTOR’, now hosted by Johnny Knoxville.\n\nPremiering January 2026 on FOX.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/DiscussingFilm/status/1984333724042084468",
+      "scraped_at": "2025-11-12T06:04:12.178Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984573893990875510",
+      "author": "Pompoarismo II",
+      "text": "The Black Tower (1987)\nby John Smith\n\n1080p / 1.5 GB\n\nEnglish, German, Spanish, French, Italian and Dutch subtitles\n\n\nhttps://\ndrive.google.com/drive/folders/\n1-r0eTsYG1UjL_hkr27Zn3yk8eeTkM3rT?usp=sharing\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Pompoarismo02/status/1984573893990875510",
+      "scraped_at": "2025-11-12T06:04:27.181Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984558106479903019",
+      "author": "Captain Atom",
+      "text": "The Witches (1990) - Behind the Scenes Footage Of Jim Henson Explaining The Puppeteering Of The Mice",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/captainatomIDC/status/1984558106479903019",
+      "scraped_at": "2025-11-12T06:04:27.181Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984498934824554877",
+      "author": "Ripper's Archive",
+      "text": "Get Shorty (1995)\n\n1080p (4.02GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/dm98Tp1BCZoB",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1984498934824554877",
+      "scraped_at": "2025-11-12T06:04:27.181Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984122164925309313",
+      "author": "Sangram",
+      "text": "My favorite first watches of October\n\nThe Sword of Doom (1966) \nThe Heiress (1949) \nCitizen Kane (1941)\nThe Match Factory Girl (1990)",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Sangram_SHK/status/1984122164925309313",
+      "scraped_at": "2025-11-12T06:04:42.183Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984358968156623330",
+      "author": "DepressedBergman",
+      "text": "\"For me, making a horror film is like telling fairy tales.\" \n\n--- Michele Soavi\n\nThe Church (1989)\nDirector: Michele Soavi",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/DannyDrinksWine/status/1984358968156623330",
+      "scraped_at": "2025-11-12T06:04:42.184Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984319231119196386",
+      "author": "Ryan Alexanderplatz",
+      "text": "top four serial killer movies",
+      "links": [],
+      "quoted_author": "Cinema Connoisseur",
+      "quoted_text": "My 4 Favorite Serial Killer Films\n\n1. The Silence of the Lambs\n2. Seven\n3. Zodiac\n4. Memories of Murder",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/ryanhasbadtaste/status/1984319231119196386",
+      "scraped_at": "2025-11-12T06:04:42.184Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984407635819708703",
+      "author": "Ripper's Archive",
+      "text": "Drunken Master Collection\n\nDrunken Master (1978)\n1080p (1.76GB)\n&\nDrunken Master II (1994)\n\nHong Kong Cut\n1080p (8.75GB)\n\nUS Cut\n1080p (9.18GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/JJMSD1slQRCD\n&\n\nhttps://\ntransfer.it/t/XxxEm1t3hZLT",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1984407635819708703",
+      "scraped_at": "2025-11-12T06:04:42.184Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984298701121020072",
+      "author": "Movie Life",
+      "text": "Cemetery Man (1994)",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/CinemaisSimple/status/1984298701121020072",
+      "scraped_at": "2025-11-12T06:04:42.184Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984287619346309251",
+      "author": "Heavy Metal",
+      "text": "“Videodrome” (1983), directed by David Cronenberg, is a surreal exploration of technology, media, and the human body. Set in a dystopian world where television broadcasts can alter reality, it delves deep into the dark intersection between violence, desire, and control. \n\nThe",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/HeavyMetalInk/status/1984287619346309251",
+      "scraped_at": "2025-11-12T06:04:42.184Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984640911796814147",
+      "author": "RohanKar",
+      "text": "https://\ngofile.io/d/pu3cn8\nCondemned: Criminal Origins (2005)\nMissing Sound Effects fix and Widescreen fix applied with proper controller support\nExtract and Enjoy ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/RohanKarMooN/status/1984640911796814147",
+      "scraped_at": "2025-11-12T06:04:57.187Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984290184931012986",
+      "author": "staid",
+      "text": "Favorite first watches of October:\n\nLet's Scare Jessica to Death (1971)\nSuspiria (1977)\nBlow Out (1981)\nMs .45 (1981)",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/staidindoors/status/1984290184931012986",
+      "scraped_at": "2025-11-12T06:04:57.187Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984381125721260119",
+      "author": "Jenny From the Spooky Block",
+      "text": "Return of the Living Dead  1985 #MoviesForHalloween ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Jeanna350/status/1984381125721260119",
+      "scraped_at": "2025-11-12T06:04:57.187Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984607652622770620",
+      "author": "Ripper's Archive",
+      "text": "The Dark Knight Trilogy (2005-2012)\n\nBatman Begins\n4K IMAX (9GB)\n4K (31GB)\n\nThe Dark Knight\n4K UHD Remux (54GB)\n4K IMAX (51GB)\n4K (8GB)\n1080p 70mm IMAX Regraded (6GB)\n1080p 35mm Grindhouse Scan (44GB)\n\nDark Knight Rises\n4K IMAX (66GB)\n4K (8GB)\n1080p 1.43 IMAX Restoration (15GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/9PTo7tsThTwR",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1984607652622770620",
+      "scraped_at": "2025-11-12T06:04:57.187Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983983005619384712",
+      "author": "luca",
+      "text": "does anyone have some good recommendations for older movies (1930s-1960s), i really wanna get into watching more of them",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/waynesfury/status/1983983005619384712",
+      "scraped_at": "2025-11-12T06:05:12.189Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984291793714729269",
+      "author": "Taste of Cinema",
+      "text": "10 Great Horror Movies Made By World-Class Directors: \nhttps://\nbuff.ly/uR37USg",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/davidcinema/status/1984291793714729269",
+      "scraped_at": "2025-11-12T06:05:12.189Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984450280436744374",
+      "author": "Movies from HELL",
+      "text": "STRANGE BEHAVIOR\nMichael Laughlin • 1981",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/26mfhpod/status/1984450280436744374",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984030210912874764",
+      "author": "Peter Ncseventeen (Scanners Inc)",
+      "text": "The Possession (35mm 6K Scan)",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/NCseventeen/status/1984030210912874764",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983905566574481479",
+      "author": "Shadow Knight",
+      "text": "every film should look like this",
+      "links": [],
+      "quoted_author": "Shadow Knight",
+      "quoted_text": "#nw: ballad of a small player (2025)",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/shadowknightdk/status/1983905566574481479",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983907621297082749",
+      "author": "staid",
+      "text": "so I guess joyce carol oates has never seen Zardoz (1974)",
+      "links": [],
+      "quoted_author": "Joyce Carol Oates",
+      "quoted_text": "\"a movie changes your life\" ---really? x.com/DxTCinema/stat…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/staidindoors/status/1983907621297082749",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983929404779557139",
+      "author": "Taste of Cinema",
+      "text": "10 Underrated Masterpieces of Horror Cinema: \nhttps://\nbuff.ly/tpKaUJv",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/davidcinema/status/1983929404779557139",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984459633260626318",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "ＷＡＣＫＯ (1982) \n \nA girl & detective are on the lookout \nfor a killer to reappear at the school prom.\n\n 1ʜʀ 26ᴍɪɴs • ⎙ 1.8ɢʙ [1080p] \n♫ ᴇɴɢʟɪsʜ sᴛᴇʀᴇᴏ + ᴇɴɢʟɪsʜ sᴜʙs\n[ \nhttps://\ntransfer.it/t/2UxnqZxTQR5J ]\n\n#31DaysOfHalloween #comedy \n#horror #horrortwt #film #Halloween",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1984459633260626318",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984493714392207696",
+      "author": "cabana",
+      "text": "Silent Hill (2006) & Silent Hill: Revelation (2012)\n\nOpen Matte (Open Matte 16:9/Custom) 1080p Blu-Ray Versions\n\nsubs: ptbr/eng/spa/fre\n\n\nhttps://\ngofile.io/d/IGpdfo",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/cabanadrives3/status/1984493714392207696",
+      "scraped_at": "2025-11-12T06:05:12.190Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984246616212275302",
+      "author": "art",
+      "text": "Häxan (LE) boxset (1922 +1968)\ndir Benjamin Christensen\n1080p / 8.78gb\n\nradiance rip w/ extras, audio commentaries, alternate cuts, alternate soundtracks, a narration by William S. Burroughs!\n\n\nhttps://\ntransfer.it/t/twYMj1xhHDCQ",
+      "links": [],
+      "quoted_author": "art",
+      "quoted_text": "Häxan (LE) boxset (1922 +1968)\ndir Benjamin Christensen\n1080p / 8.78gb\n\nradiance rip w/ extras, audio commentaries, alternate cuts, alternate soundtracks, a narration by William S. Burroughs!\n\n\nhttps://\ntransfer.it/t/twYMj1xhHDCQ",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/ucantstealart/status/1984246616212275302",
+      "scraped_at": "2025-11-12T06:05:27.192Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984414449881792751",
+      "author": "Ripper's Delight",
+      "text": "Dune\nPart One (2021) & Part Two (2024)\n\nPart One\n4K UHD Remux (73.08GB)\n4K (6.93GB)\n\nPart Two\n4K UHD Remux (64.29GB)\n4K (7.4GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/eHOsO501CT7Z",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1984414449881792751",
+      "scraped_at": "2025-11-12T06:05:27.192Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984403587145900131",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝚃𝚑𝚎 𝚂𝚌𝚘𝚘𝚋𝚢-𝙳𝚘𝚘 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 (1999)\n\n 18ᴍɪɴs • ⎙ 716ᴍʙ [1080p] \n♫ ᴇɴɢʟɪsʜ sᴛᴇʀᴇᴏ \n[ \nhttps://\ntransfer.it/t/9RuEnNw1wZ4Q ]",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1984403587145900131",
+      "scraped_at": "2025-11-12T06:05:27.193Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984438787007729918",
+      "author": "d4nb0y",
+      "text": "The Martian (2015) Open Matte - 1080p\n\nhttps://\nboxd.it/8SeG\n\n\nhttps://\ntransfer.it/t/0hctTU0zlbYD",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/dd4nd4nn/status/1984438787007729918",
+      "scraped_at": "2025-11-12T06:05:27.193Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983856659622719508",
+      "author": "Pompoarismo II",
+      "text": "5 filmes de Andrew Bujalski no drive! \n\nFunny Ha Ha (2002)\n\nhttps://\ndrive.google.com/drive/folders/\n14vMMYQOhwMY3De4eYIjN-P0EeJOE5DFB?usp=sharing\n…\n\nMutual Appreciation (2005)\n\nhttps://\ndrive.google.com/drive/folders/\n1GTQVr0rtB5vO_5EFS5gq4ckojVd0Ac2L?usp=sharing\n…\n\nComputer Chess (2013)\n\nhttps://\ndrive.google.com/drive/folders/\n1rUjuS9VPi1NKr9oaoKsoRgPm04W_R9T8?usp=sharing\n…\n\nResults (2015)\n\nhttps://\ndrive.google.com/drive/folders/\n1IvmxjaS0CzvSl7hlDeZVivxkpRs0Exzk?usp=sharing\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Pompoarismo02/status/1983856659622719508",
+      "scraped_at": "2025-11-12T06:05:42.195Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984393477279437195",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝚂𝚒𝚕𝚎𝚗𝚝 𝙷𝚒𝚕𝚕: 𝚁𝚎𝚟𝚎𝚕𝚊𝚝𝚒𝚘𝚗 (2012)\n[𝙾𝙿𝙴𝙽 𝙼𝙰𝚃𝚃𝙴]\n\n 1ʜʀ 34ᴍɪɴs • ⎙ 4.5ɢʙ [1080p] \n♫ ᴇɴɢʟɪsʜ 5.1 + ᴇɴɢʟɪsʜ sᴜʙᴛɪᴛʟᴇs\n[ \nhttps://\ntransfer.it/t/YnfMTA5lWRaL ]\n\n #31DaysOfHorror #31DaysOfHalloween #horror \n#horrortwt #SilentHill #pyramidhead #Halloween",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1984393477279437195",
+      "scraped_at": "2025-11-12T06:05:42.195Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984072369548485032",
+      "author": "slutty george costanza",
+      "text": "Night of the Demon (Jacques Tourneur, 1957)",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/lilbirdliv/status/1984072369548485032",
+      "scraped_at": "2025-11-12T06:05:42.195Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984168077315957133",
+      "author": "David Hering",
+      "text": "Skinflicker (1972): Jaw-dropping pioneering found-footage film about a political kidnapping - one of the grimiest, most disturbing films to come out of 70s Britain, recalling the work of Alan Clarke and Peter Watkins. Lingers in the mind long after the ending",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/hering_david/status/1984168077315957133",
+      "scraped_at": "2025-11-12T06:05:42.195Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984198680103043178",
+      "author": "Les enfants du drive",
+      "text": "Yokai Monsters—Along with Ghosts (Kimiyoshi Yasuda & Yoshiyuki Kuroda, 1969)\n\nhttps://\ndrive.google.com/drive/folders/\n1nrQCpbDh3_NrG9Ylq6IGp3nJwnyVd1-L\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/lesenfants17811/status/1984198680103043178",
+      "scraped_at": "2025-11-12T06:05:42.195Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984205080653160783",
+      "author": "Daniel Hood",
+      "text": "I highly recommend these two",
+      "links": [],
+      "quoted_author": "cinesthetic.",
+      "quoted_text": "What's some of the best lesser known movie's from the 90's?",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/DanielHood4/status/1984205080653160783",
+      "scraped_at": "2025-11-12T06:05:42.196Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984009299891560705",
+      "author": "Cinema Joy",
+      "text": "Cure (1997) is a Cinematic Masterpiece",
+      "links": [],
+      "quoted_author": "Cinema Connoisseur",
+      "quoted_text": "My 4 Favorite Serial Killer Films\n\n1. The Silence of the Lambs\n2. Seven\n3. Zodiac\n4. Memories of Murder",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/CinemaJoys/status/1984009299891560705",
+      "scraped_at": "2025-11-12T06:05:42.196Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983951367069704275",
+      "author": "𝐂𝐢𝐧𝐞𝐦𝐚 𝐨𝐟 𝐭𝐡𝐞 𝐔𝐧𝐬𝐞𝐭𝐭𝐥𝐢𝐧𝐠",
+      "text": "Them! (1954) dir. Gordon Douglas",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/HauntedMovies/status/1983951367069704275",
+      "scraped_at": "2025-11-12T06:05:42.196Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984296367414481256",
+      "author": "Sebastian 35mm",
+      "text": "Africa is a vast and diverse continent, with quite different directors and visions.\nHere's a collection of key movies from my database. This is by no means exhaustive - it's a sampler, to start you off.\n\nPart 1 \nBALYkFlXQbwZ\nPart 2\nz7fxgZ0jDRpT\n\nInstructions on my pinned post.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/sebastian35mm/status/1984296367414481256",
+      "scraped_at": "2025-11-12T06:05:57.198Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984092601033572533",
+      "author": "drive de alexandria",
+      "text": "Savage Hunt of King Stakh (Дикая охота короля Стаха, 1979)\n• 2h12min\n• USSR, Suspense/Horror/Mistério/Drama\n• Dir: Valeriy Rubinchik\n(legendado em pt-br, en)\n\nUm etnógrafo recebe a notícia em sua estadia em um castelo de que será a próxima vítima de uma antiga maldição.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/drivelexandria/status/1984092601033572533",
+      "scraped_at": "2025-11-12T06:05:57.198Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984311178592403862",
+      "author": "horror no drive",
+      "text": "The Black House (1999)\nSubtitled (Eng/Pt)\nDuration: 1h59m\nGenre: Horror",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/horrordrives/status/1984311178592403862",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984207982549479555",
+      "author": "Pompoarismo II",
+      "text": "In Harm's Way (1965)\nby Otto Preminger\n\n1080p / 7.2 GB\nsubtitles in Portuguese and English \n\n\nhttps://\ndrive.google.com/drive/folders/\n1WLosvf8tw_n5mG7eMjEqp76FCj40vRpL?usp=sharing\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Pompoarismo02/status/1984207982549479555",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983948627929370901",
+      "author": "latratory",
+      "text": "4 Eyes 1975 \nKeiichi Tanaami\n\nhttps://\ntransfer.it/t/9GLQgM8zBT5Z",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/latratory/status/1983948627929370901",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983946449390833884",
+      "author": "LaserDisc",
+      "text": "The Quest (1996)\ndir. Jean Claude Van Damme \n95 mins\neng, spa, pt br subs \n\n\nhttps://\ntransfer.it/t/IPovtJxFFJCY",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/cityonfiredrive/status/1983946449390833884",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984318973878378750",
+      "author": "florent",
+      "text": "Peter Watkins' death today, everyone should watch this film whose themes are still very relevant today. RIP goat ",
+      "links": [],
+      "quoted_author": "florentdrive2",
+      "quoted_text": "Punishment Park (1971,Peter Watkins)\nsubs fr/eng : \nhttps://\ngofile.io/d/OneYxi",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/yrralFisherman/status/1984318973878378750",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984246604120175008",
+      "author": "Pompoarismo II",
+      "text": "Tokyo-Ga (1985)\nde Wim Wenders\n\nlegendas em português e espanhol\n\n\nhttps://\ndrive.google.com/drive/folders/\n1umwtRFfhqIHmqrrCl98prHcfcUmrs9cc?usp=sharing\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Pompoarismo02/status/1984246604120175008",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984249550417363380",
+      "author": "art",
+      "text": "Maciste in Hell (Maciste all'inferno) (1925)\ndir Guido Brignone\n1080p / 3.66gb\n\nLike if Georges Méliès kept making movies but started taking his characters to Hell instead of the Moon.\n\n\nhttps://\ntransfer.it/t/UbUktrwxmBKB",
+      "links": [],
+      "quoted_author": "art",
+      "quoted_text": "Maciste in Hell (Maciste all'inferno) (1925)\ndir Guido Brignone\n1080p / 3.66gb\n\nLike if Georges Méliès kept making movies but started taking his characters to Hell instead of the Moon.\n\n\nhttps://\ntransfer.it/t/UbUktrwxmBKB",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/ucantstealart/status/1984249550417363380",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984344518502859231",
+      "author": "Ripper's Delight",
+      "text": "The Elephant Man (1980)\n\n4K UHD Remux (88.25GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/tJYSGslRQBiA",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1984344518502859231",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984338046200799252",
+      "author": "florentdrive2",
+      "text": "Martin (1978, George A. Romero)\n1080p BluRay UNCUT REMASTER (10GB)\n\nhttps://\ntransfer.it/t/RzksI8wVxTwQ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1984338046200799252",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984051426977513505",
+      "author": "larryagross",
+      "text": "A great film rhat too few people have seen",
+      "links": [],
+      "quoted_author": "Real Information of Cinema",
+      "quoted_text": "Miguel Gomes - Grand Tour (2024)\n\nhttps://\ntransfer.it/t/B47O2A0DiJya",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/larryagross/status/1984051426977513505",
+      "scraped_at": "2025-11-12T06:06:12.202Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984287481379066081",
+      "author": "gazing",
+      "text": "http://\ntransfer.it/t/mAATLtoxwJzB\nAlfred Hitchcock collection - 109.50GB\n\nhttps://\nboxd.it/2Jgz\n52 features from 1925 to 1976, 1080p or best; almost encodes done by me, Psycho and Vertigo are 35mm scans\n+ over 60 books on his films including works by Bazin, Truffaut and Chabrol\nEnjoy ^_^",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/mystickspirals/status/1984287481379066081",
+      "scraped_at": "2025-11-12T06:06:27.204Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984173625214402642",
+      "author": "Ripper's Archive",
+      "text": "The Innocents (1961)\n\n1080p (12.91GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/9r1Bf1kx0JDQ",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1984173625214402642",
+      "scraped_at": "2025-11-12T06:06:27.205Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983750854680473814",
+      "author": "art",
+      "text": "Black Box (1978) (20mins)\ndir Beth B & Scott B\n1080p / 875mb\n\nAn innocent youth is abducted and dragged down into a dystopian nightmare where teenage Lydia Lunch throws him into the Black Box.\n\n\nhttps://\ntransfer.it/t/T3UexigVRBYZ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/ucantstealart/status/1983750854680473814",
+      "scraped_at": "2025-11-12T06:06:42.207Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984250921174610371",
+      "author": "MavericStar",
+      "text": "GAME OF THRONES : SEASON (1-8)\n-COMPLETE BONUS MATERIAL COLLECTION.\n\n-in depth material to immerse in this world.\n-have not seen these many extras/storyboards/etc. for any other tv show.\n-will be around 130+Gb\n-bookmark this to comeback\n\n- coming today .",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/Mavericstar/status/1984250921174610371",
+      "scraped_at": "2025-11-12T06:06:42.207Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983732576947990578",
+      "author": "Ripper's Delight",
+      "text": "Blood Simple (1984)\n\n4K UHD Remux (56.87GB)\n1080p Remux (24.36GB)\n\n4K (4.28GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/KXTIns1ziLbD",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1983732576947990578",
+      "scraped_at": "2025-11-12T06:06:42.208Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984189935315017904",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "ＨＵＢＩＥ \nＨＡＬＬＷＥＥＮ (2O2O)\n\n~ Hubie's not the most popular guy in Salem, \nbut when Halloween turns truly spooky, \nhe sets out to keep his town safe. ~\n\n 1ʜʀ 43ᴍɪɴs • ⎙ 1.9ɢʙ [1080p] \n♫ ᴇɴɢʟɪsʜ 5.1 + sᴜʙᴛɪᴛʟᴇs\n\n[\nhttps://\ntransfer.it/t/paKMqZ4jyB5b]",
+      "links": [],
+      "quoted_author": "cadet kelly reichardt",
+      "quoted_text": "*clears throat* despise Netflix but I still need to get around to:",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1984189935315017904",
+      "scraped_at": "2025-11-12T06:06:42.208Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984023016691659148",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝑻𝑯𝑬 𝑮𝑯𝑶𝑺𝑻 𝑺𝑵𝑨𝑻𝑪𝑯𝑬𝑹𝑺 (1986)\n[ 俾鬼捉 ]\n\n 1ʜʀ 28ᴍɪɴs • ⎙ 4ɢʙ [480i DVDrip]\n♫ ᴄᴀɴᴛᴏɴᴇsᴇ | ᴍᴀɴᴅᴀʀɪɴ sᴛᴇʀᴇᴏ + ᴇɴɢʟɪsʜ sᴜʙs\n[ \nhttps://\ntransfer.it/t/tdnPOJw1DDyL ]\n\n#JoeyWong #JoeyWang #JoyceGodenzi #藍乃才\n#horror #horrortwt #film #filmtwt #hongkongcinema",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1984023016691659148",
+      "scraped_at": "2025-11-12T06:06:42.208Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984059923341455856",
+      "author": "Ran",
+      "text": "Basket Case (1982)\n1080p Blu-Ray (w/ English subs)\n8.74 GB",
+      "links": [],
+      "quoted_author": "Ran",
+      "quoted_text": "https://\ntransfer.it/t/ozRdM5oFSZRL",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/alienprivateeye/status/1984059923341455856",
+      "scraped_at": "2025-11-12T06:06:42.208Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1930701657027068390",
+      "author": "RohanKar",
+      "text": "https://\ngofile.io/d/UnhcGN\nPrey (2004)\n16x MSAA, Widescreen HUD, Low Graphical Quality Fix, Fixed Stuttering In-Game.\nDone by \n@IriGloom\n\nExtract and Enjoy ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/RohanKarMooN/status/1930701657027068390",
+      "scraped_at": "2025-11-12T06:06:42.208Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983671980126830815",
+      "author": "Ripper's Archive",
+      "text": "I'm a Virgo (2023)\n\n1080p (12.98GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Mo7eeg03ELQB",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1983671980126830815",
+      "scraped_at": "2025-11-12T06:06:57.211Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983441305201160449",
+      "author": "𝘾𝙤𝙤𝙥'𝙨 𝙑𝙞𝙙𝙚𝙤",
+      "text": "NOSFERATU (2024)\n4K/HD Black and White Edition  [v1.3] \n\n4K UHD x264 [15gb] / HD x264 [6gb] \n5.1 DOLBY ATMOS English Subtitles",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/MrCoopersVideo/status/1983441305201160449",
+      "scraped_at": "2025-11-12T06:06:57.211Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983972172579123640",
+      "author": "Cine, Interrupted",
+      "text": "O Homem de Palha/The Wicker Man (1973)\nDir. Robin Hardy - 1h34min\n\nLegendado: \nhttps://\nvkvideo.ru/video-22995175\n7_456239495\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/cineinterrupted/status/1983972172579123640",
+      "scraped_at": "2025-11-12T06:06:57.211Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983550084521353311",
+      "author": "gazing",
+      "text": "http://\ntransfer.it/t/IRCfP4wnyD5Y\nClaude Chabrol collection - 101.48GB\n\nhttp://\nboxd.it/1MbZ\nOver 50 films including all theatrical features in 1080p or best available, just missing a bunch of made for TV stuff and shorts\nAlso included some books on him + his book on Hitchcock\nEnjoy ^_^",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/mystickspirals/status/1983550084521353311",
+      "scraped_at": "2025-11-12T06:06:57.211Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983777168086675897",
+      "author": "Les enfants du drive",
+      "text": "Dracula's Daughter (Lambert Hillyer, 1936)\n\nhttps://\ndrive.google.com/drive/folders/\n1iXQPQX9uD-MDiETkQxW5yboqnXkGnRUy\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/lesenfants17811/status/1983777168086675897",
+      "scraped_at": "2025-11-12T06:06:57.211Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983579645078351994",
+      "author": "angelo",
+      "text": "The Witch's Mirror (1960)\n• dir. Chano Urueta\n• Terror\n• 1h15min\n• 720p\n• Subs: eng, fre, ita, pt-br\n\nhttps://\ndrive.google.com/drive/folders/\n17AK9Mh4KQlA6au_uWLikaOxdEN61VpGD\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/michangelodvm/status/1983579645078351994",
+      "scraped_at": "2025-11-12T06:06:57.211Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983758763577511981",
+      "author": "art",
+      "text": "Vortex (1982) (90mins)\ndir Beth B & Scott B\n368p / 205mb\n\nNeo-Noir Detective Lydia Lunch plows her way through the plans of a corporate businessman who seeks government defense contracts through real “corporate wars” and the manipulation of politicians.\n\n\nhttps://\ntransfer.it/t/0Ysj0yh3hBqT",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/ucantstealart/status/1983758763577511981",
+      "scraped_at": "2025-11-12T06:07:12.214Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984027001473413227",
+      "author": "Alan Smithee the Third",
+      "text": "Hideshi Hino's Guinea Pig 2: Flower of Flesh and Blood (1985) - HD Retro Remaster - 2.4 Gig MKV\n\nThe legendary underground Japanese horror film as you've never seen it before!\n\nDetails, Screenshots and Links in the replies.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/AlanSmitheeThe3/status/1984027001473413227",
+      "scraped_at": "2025-11-12T06:07:12.214Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983571226103808028",
+      "author": "𝘾𝙤𝙤𝙥'𝙨 𝙑𝙞𝙙𝙚𝙤",
+      "text": "Nobody ever mentions that it's the sequel to Wild At Heart/Sailor and Lula.",
+      "links": [],
+      "quoted_author": "Eternal Family",
+      "quoted_text": "Perdita Durango (1997, 2hr 10min) Streaming for Family Members on \nhttp://\nEternal.tv & Apps in North America. \n\n\nhttps://\neternal.tv/programs/perdi\nta-durango\n… \n\nAn amoral couple practice voodoo and commit a series of violent, bloody crimes on their way to Las Vegas. \n\nDirected by Álex de la",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/MrCoopersVideo/status/1983571226103808028",
+      "scraped_at": "2025-11-12T06:07:12.215Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983721676727779805",
+      "author": "Ripper's Archive",
+      "text": "Sorry to Bother You (2018)\n\n1080p (13.75GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/pjZUqokRWBgb",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1983721676727779805",
+      "scraped_at": "2025-11-12T06:07:12.215Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1984081858930614483",
+      "author": "Ripper's Archive",
+      "text": "Nope (2022)\n\n4K IMAX (63.75GB)\n\n4K (5.82GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/EC08Swt1CZrS",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1984081858930614483",
+      "scraped_at": "2025-11-12T06:07:12.215Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983765875439394828",
+      "author": "Ripper's Delight",
+      "text": "Aliens (1986) Collection\n\nTheatrical Cut\n4K UHD Remux (57.14GB)\n4K 35mm (43.36GB)\n4K (24.55GB)\n\nDirector’s Cut\n1080p (2.2GB)\n\nSpecial Edition\n4K UHD Remux (64.44GB)\n4K (17.57GB)\n1080p Full Frame (19.87GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/Waufn40zQb7L",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1983765875439394828",
+      "scraped_at": "2025-11-12T06:07:12.215Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983908621306978350",
+      "author": "Atif Zaguero",
+      "text": "Para complementar a \n@FILMxDESIRE\n y a \n@startofsvmmer\n \nHalloween  I ( 4k - 4,6 GB  )\nHalloween II ( 4k - 4,7 GB  )\nHalloween III ( 4k - 4,8 GB )\nHalloween IV ( 4k-  4,3 GB )\nHalloween V ( 4k - 4,7 GB )\nHalloween 2007 ( 4k - 29 GB )\n\nhttps://\ntransfer.it/t/9bssyZpFyZrY\n\n",
+      "links": [],
+      "quoted_author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "quoted_text": "𝐇𝐀𝐋𝐋𝐎𝐖𝐄𝐄𝐍 • 𝟺:𝟹 𝙵𝚄𝙻𝙻𝚂𝙲𝚁𝙴𝙴𝙽 𝙲𝙾𝙻𝙻𝙴𝙲𝚃𝙸𝙾𝙽 \n(1978-2002)\n\nA huge thank you to 𝑆𝑖𝑙𝑒𝑛𝑐𝑒 𝐷𝑜𝑔𝑜𝑜𝑑 for your work. \n#31DaysOfHorror [\nhttps://\ngofile.io/d/ccmp5k]\n\n#horror #Halloween #31DaysofHalloween \n#horrortwt #HorrorCommunity #MichaelMyers",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/runner_taf/status/1983908621306978350",
+      "scraped_at": "2025-11-12T06:07:27.217Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983985185659220072",
+      "author": "Ripper's Archive",
+      "text": "Space Ghost Coast to Coast (1994)\n\n480p (5.73GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/xOTwnksVQJab",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1983985185659220072",
+      "scraped_at": "2025-11-12T06:07:27.217Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983959189841178866",
+      "author": "MavericStar",
+      "text": "HERE YOU GO",
+      "links": [],
+      "quoted_author": "d4nb0y",
+      "quoted_text": "Tron: Ares (2025) - 1080p\n\nhttps://\nboxd.it/jqdM\n\n\nhttps://\ntransfer.it/t/4r9K3Q0TSDIA",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/Mavericstar/status/1983959189841178866",
+      "scraped_at": "2025-11-12T06:07:27.218Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982769109193687105",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝘚𝘤𝘰𝘰𝘣𝘺-𝘋𝘰𝘰 𝘢𝘯𝘥 𝘵𝘩𝘦 𝘈𝘭𝘪𝘦𝘯 𝘐𝘯𝘷𝘢𝘥𝘦𝘳𝘴 (2000)\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ \n@JZeleke\n \n\n 1ʜʀ 12ᴍɪɴs • ⎙ 1.8ɢʙ [1080p] \n♫ ᴇɴɢʟɪsʜ 5.1 + ᴇɴɢʟɪsʜ sᴜʙᴛɪᴛʟᴇs\n+ ʙᴇʜɪɴᴅ ᴛʜᴇ sᴄᴇɴᴇs\n[\nhttps://\ntransfer.it/t/15MjvJwlyBib]",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/FILMxDESIRE/status/1982769109193687105",
+      "scraped_at": "2025-11-12T06:07:27.218Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982858724567052575",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝘏𝘢𝘭𝘭𝘰𝘸𝘦𝘦𝘯: 𝘛𝘩𝘦 𝘊𝘶𝘳𝘴𝘦 𝘰𝘧 𝘔𝘪𝘤𝘩𝘢𝘦𝘭 𝘔𝘺𝘦𝘳𝘴 (1995)\n[𝐓𝐡𝐞 𝐏𝐫𝐨𝐝𝐮𝐜𝐞𝐫'𝐬 𝐂𝐮𝐭]\n\n 1ʜʀ 36ᴍɪɴs • ⎙ 4.3ɢʙ [2160p 4K] \n♫ ᴇɴɢʟɪsʜ 5.1 + ᴇɴɢʟɪsʜ sᴜʙᴛɪᴛʟᴇs\nRequested by: \n@hotrodzod\n & \n@SpyMast73050981\n \n \n[  \nhttps://\ntransfer.it/t/WMIdfYhBEb7T  ]",
+      "links": [],
+      "quoted_author": "Zodfry Cornelius Bungo 🜃",
+      "quoted_text": "Halloween 6 Producer’s Cut please! Thank you.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1982858724567052575",
+      "scraped_at": "2025-11-12T06:07:27.218Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983353378072866943",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝑻𝒓𝒊𝒄𝒌 '𝒓 𝑻𝒓𝒆𝒂𝒕 (2007) \n\n~ Five wicked stories on Halloween night. ~\n 1ʜʀ 22ᴍɪɴs • ⎙ 3.6ɢʙ [2160p 4k]\n♫ ᴇɴɢʟɪsʜ 5.1 + sᴜʙᴛɪᴛʟᴇs\n[\nhttps://\ntransfer.it/t/HYFtjZ5hELwC]\n\n#31DaysOfHorror #31DaysOfHalloween \n#horror #horrortwt #film #halloween #TrickrTreat",
+      "links": [],
+      "quoted_author": "Andrew R",
+      "quoted_text": "Trick R Treat 2007 please",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1983353378072866943",
+      "scraped_at": "2025-11-12T06:07:27.218Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983374816347369507",
+      "author": ".𖥔 ݁ ˖ ✦ ‧₊˚ ⋅",
+      "text": "my fav films directed by women",
+      "links": [],
+      "quoted_author": "florent",
+      "quoted_text": "My favorite films directed by a woman\n\nhttps://\nboxd.it/PMjsO",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/lacrymxria_/status/1983374816347369507",
+      "scraped_at": "2025-11-12T06:07:27.218Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983345071996186951",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝕿𝒉𝒆 𝕻𝒉𝒂𝒏𝒕𝒐𝒎 𝖔𝒇 𝖙𝒉𝒆 𝕺𝒑𝒆𝒓𝒂 (1989) \n\n~ A singer becomes the obsession of a horribly \ndisfigured maestro determined to make her a star ~\n\n 1ʜʀ 33ᴍɪɴs • ⎙ 6.5ɢʙ [1080p] \n♫ ᴇɴɢʟɪsʜ sᴛᴇʀᴇᴏ + ᴇɴɢʟɪsʜ sᴜʙᴛɪᴛʟᴇs\n[  \nhttps://\ntransfer.it/t/lptuzYh3RJ7D  ]",
+      "links": [],
+      "quoted_author": "One Angry Rabbit",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1983345071996186951",
+      "scraped_at": "2025-11-12T06:07:42.221Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983417890297815272",
+      "author": "𝘾𝙤𝙤𝙥'𝙨 𝙑𝙞𝙙𝙚𝙤",
+      "text": "DUNE Collection\nCHILDREN OF DUNE (03) regraded HD 21gb\nDUNE (00) regraded composite edit HD 18gb\nDUNE (84) Theatrical (B/W) HD 9gb\nDUNE (84) Spicediver cut (B/W) HD 11gb\nDUNE (84) Spicediver cut (BD iso) 31gb\nDenis Villeneuve's DUNE 5hr cut HD 15gb",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/MrCoopersVideo/status/1983417890297815272",
+      "scraped_at": "2025-11-12T06:07:42.221Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983331584490258675",
+      "author": "florentdrive2",
+      "text": "Alone in the Night (1994, Takashi Ishii)\n\nhttps://\ntransfer.it/t/89cRAw5X1ZLQ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1983331584490258675",
+      "scraped_at": "2025-11-12T06:07:42.221Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983632239960453185",
+      "author": "florentdrive2",
+      "text": "Gorgo (1961, Eugène Lourié)\n1080p BluRay (12GB)\n\nhttps://\ntransfer.it/t/ZnNmE0gHABTT",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1983632239960453185",
+      "scraped_at": "2025-11-12T06:07:42.221Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983631310171377824",
+      "author": "florentdrive2",
+      "text": "The Oily Maniac (1976, Ho Meng-hua)\n1080p BluRay (6GB)\n\nhttps://\ntransfer.it/t/hMON49wn1bYa",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1983631310171377824",
+      "scraped_at": "2025-11-12T06:07:42.221Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983470226324050214",
+      "author": "Les enfants du drive",
+      "text": "Yokai Monsters—100 Monsters (Kimiyoshi Yasuda, 1968)\n\nhttps://\ndrive.google.com/drive/folders/\n13QZOF5Nxn8XNJmS9A-Jhqi1OluutcBiP\n…",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/lesenfants17811/status/1983470226324050214",
+      "scraped_at": "2025-11-12T06:07:42.221Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982319115705655653",
+      "author": "Inherent Vice truther",
+      "text": "a hidden gem that needs to be on your watchlist\n\nHairpin Circus (1972)",
+      "links": [],
+      "quoted_author": "florent",
+      "quoted_text": "a hidden gem that needs to be on your watchlist  x.com/klassy/status/…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/Blue_J_Cinema/status/1982319115705655653",
+      "scraped_at": "2025-11-12T06:07:42.222Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983621859854922068",
+      "author": "tuna",
+      "text": "Cannes Lions Winners - 2024 \n1.86 GB\n\nThe Cannes Film Festival is a world-class celebration of cinema in France, showcasing films of all kinds:\n\nfrom big international premieres to indie gems, shorts, documentaries, and student films. \n\nA true spotlight on global storytelling.",
+      "links": [],
+      "quoted_author": "tuna",
+      "quoted_text": "https://\ntransfer.it/t/QaBgVRt1nJiK",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/erikyhirai/status/1983621859854922068",
+      "scraped_at": "2025-11-12T06:07:57.224Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983633676383748305",
+      "author": "florentdrive2",
+      "text": "Vampire humaniste cherche suicidaire consentant (2023, Ariane Louis-Seize)\n1080p BluRay (9GB)\n\nhttps://\ntransfer.it/t/uniZI0wV0BqR",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/coltranefanboy/status/1983633676383748305",
+      "scraped_at": "2025-11-12T06:07:57.224Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983034447294542102",
+      "author": "𝘾𝙤𝙤𝙥'𝙨 𝙑𝙞𝙙𝙚𝙤",
+      "text": "DAYDREAM NATION (2010) by Michael Goldbach \nRECUT & REGRADED Fanfix \nHD 1080p x265 5.1 AAC [4.3gb]\n\nInc. New music, New credits, and New ending",
+      "links": [],
+      "quoted_author": "k",
+      "quoted_text": "would love to see this if you ever re-upload i think previous links are broken ://",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/MrCoopersVideo/status/1983034447294542102",
+      "scraped_at": "2025-11-12T06:07:57.224Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983292501885890775",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "𝑻𝐡𝐞 𝑹𝐢𝐭𝐮𝐚𝐥 (2017)\n\n¬Old college friends reunite for a trip \nto Sweden, where they encounter a \nmenacing presence stalking them.¬\n\n 1ʜʀ 34ᴍɪɴs • ⎙ 1.7ɢʙ [1080p] \n♫ ᴇɴɢʟɪsʜ 5.1 + ᴇɴɢʟɪsʜ sᴜʙs\n[\nhttps://\ntransfer.it/t/QJGRmB4DUB7L]\nrequested by @alexinnnnnnnn \n@MikesCabinet",
+      "links": [],
+      "quoted_author": "marianne",
+      "quoted_text": "omg The Ritual would be amazinggg or Sinister",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1983292501885890775",
+      "scraped_at": "2025-11-12T06:07:57.224Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983262187163636184",
+      "author": "ash",
+      "text": "Saw Bugonia on 35mm,\ngot a free film strip.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/yourbuddyash/status/1983262187163636184",
+      "scraped_at": "2025-11-12T06:07:57.224Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983349740856291454",
+      "author": "Ripper's Archive",
+      "text": "Tank Girl (1995)\n\n1080p (1.63GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/pd5Yv09XULyb",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersarchive/status/1983349740856291454",
+      "scraped_at": "2025-11-12T06:07:57.224Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983449903226589199",
+      "author": "santy",
+      "text": "1080p (6.28 GB) subs: 25 languages \n@santodrive3",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/santodrive2/status/1983449903226589199",
+      "scraped_at": "2025-11-12T06:08:12.226Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983314936429428778",
+      "author": "Ava",
+      "text": "the best vampire movie. ever.",
+      "links": [],
+      "quoted_author": "Ripper's Archive",
+      "quoted_text": "Thirst (2009)\n\n1080p (4.76GB)\n\n\nhttps://\nx.com/ripperslinks/s\ntatus/1979755271678538166\n…",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/Ava1939351/status/1983314936429428778",
+      "scraped_at": "2025-11-12T06:08:12.226Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983021041376239798",
+      "author": "3GoldBalls",
+      "text": "Holy shit, I’ve seen that ad before…\n\nThey just rerender an entire ad from the 2000’s IN WIDESCREEN!!! (with some changes.)\n\nDamn, that’s crazy.",
+      "links": [],
+      "quoted_author": "Scott Gustin",
+      "quoted_text": "NEW: Disney and ESPN reveal a Monsters, Inc.-themed NFL broadcast “Monsters Funday Football” featuring the Eagles vs. Chargers on Dec. 8 on ESPN2, Disney+, Disney XD, Disney Channel and the ESPN App.",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/3GoldBalls/status/1983021041376239798",
+      "scraped_at": "2025-11-12T06:08:12.227Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982866957478309983",
+      "author": "𝔽𝚒𝚕𝚖 ⤫ 𝔻𝚎𝚜𝚒𝚛𝚎",
+      "text": "sᴛᴇᴘʜᴇɴ ᴋɪɴɢ's ＩＴ (1990)\n[ᴛᴠ ᴍɪɴɪ-sᴇʀɪᴇs]\n\n 3ʜʀ 7ᴍɪɴs • ⎙ 3.6ɢʙ [1080p]\n♫ ᴇɴɢʟɪsʜ sᴛᴇʀᴇᴏ + ᴇɴɢʟɪsʜ sᴜʙᴛɪᴛʟᴇs\n\n~ Seven friends struggle with a demon they first \nencountered 30 years earlier in their hometown. ~\n[\nhttps://\ntransfer.it/t/feRRy0hFDRbA]",
+      "links": [],
+      "quoted_author": "willow.",
+      "quoted_text": "Stephen King's IT (1990)",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/FILMxDESIRE/status/1982866957478309983",
+      "scraped_at": "2025-11-12T06:08:27.230Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983252840618639431",
+      "author": "Ripper's Delight",
+      "text": "Possession (1981)\n\n4K UHD Remux (75.11GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/SB4lWl0BybCR",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1983252840618639431",
+      "scraped_at": "2025-11-12T06:08:27.230Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983186743819153613",
+      "author": "Cinema Scene",
+      "text": "In Eternal Sunshine of the Spotless Mind (2004), the director gave Jim Carrey and Kate Winslet completely different directions.\nTo Kate: “Go as big as you want, this is a comedy.”\n\nTo Jim: “This is drama, not comedy.”",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/CinemaScene404/status/1983186743819153613",
+      "scraped_at": "2025-11-12T06:08:27.230Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983197327310647483",
+      "author": "DiscussingFilm",
+      "text": "‘THE SHINING’ will be released in IMAX theaters for the first time on December 12.",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/DiscussingFilm/status/1983197327310647483",
+      "scraped_at": "2025-11-12T06:08:42.264Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982886824512238045",
+      "author": "Ripper's Delight",
+      "text": "The John Wick Tetralogy (2014-2023)\nAll 4K UHD Remux\n\nJohn Wick (2014)\n(65.5GB)\n\nChapter 2 (2017)\n(74.57GB)\n\nChapter 3 - Parabellum (2019)\n(80.34GB)\n\nChapter 4 (2023)\n(74.2GB)",
+      "links": [],
+      "quoted_author": "Ripper’s Links",
+      "quoted_text": "https://\ntransfer.it/t/yaXFe0sj2BrT",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/rippersdelight/status/1982886824512238045",
+      "scraped_at": "2025-11-12T06:08:42.264Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982871852877070699",
+      "author": "Andrewn",
+      "text": "halo 1 on PC with mods to restore the missing VFX from the original xbox release   \n\nsatisfactory",
+      "links": [],
+      "quoted_author": "RohanKar",
+      "quoted_text": "https://\ngofile.io/d/sfJl6z\nHalo: Combat Evolved (2001)\nBased on Custom Edition, Patched to v1.10, with mods to make the game look as accurate to XBOX version as possible\nBonus materials are included too (Check thread for contents)\nExtract and Enjoy",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/Skogjero/status/1982871852877070699",
+      "scraped_at": "2025-11-12T06:08:57.266Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1982832321377034516",
+      "author": "RohanKar",
+      "text": "https://\ngofile.io/d/sfJl6z\nHalo: Combat Evolved (2001)\nBased on Custom Edition, Patched to v1.10, with mods to make the game look as accurate to XBOX version as possible\nBonus materials are included too (Check thread for contents)\nExtract and Enjoy ",
+      "links": [],
+      "quoted_author": "",
+      "quoted_text": "",
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/RohanKarMooN/status/1982832321377034516",
+      "scraped_at": "2025-11-12T06:08:57.266Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    },
+    {
+      "id": "1983295165604475063",
+      "author": "tuna",
+      "text": "Isao Yamada Mix Collection (1977 - 2024)\n12.69 GB\n\nA selection of 47 works: from compilations, trailers and sketches to short and feature films.\n\nbrought together into one continuous audiovisual journey.",
+      "links": [],
+      "quoted_author": "tuna",
+      "quoted_text": "https://\ntransfer.it/t/SmzZQN1BjRpL",
+      "quoted_links": [],
+      "has_quote": true,
+      "url": "https://x.com/erikyhirai/status/1983295165604475063",
+      "scraped_at": "2025-11-12T06:08:57.266Z",
+      "parsed_media": {
+        "media_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
+      }
+    }
+  ],
+  "parser_stats": {
+    "tweets_processed": 192,
+    "tweets_with_media": 0,
+    "total_media_items": 0,
+    "wikidata_enhanced": 0,
+    "parsing_time_seconds": "0.0",
+    "parsed_at": "2025-11-12T08:16:38.341Z"
+  }
+}

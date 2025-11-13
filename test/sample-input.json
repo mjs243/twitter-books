@@ -1,0 +1,62 @@
+{
+  "config": {
+    "targetDomains": [
+      "transfer.it",
+      "gofile.io",
+      "hubcloud.fit",
+      "drive.google.com",
+      "mega.nz",
+      "boxd.it"
+    ],
+    "includePatterns": [
+      "documentary",
+      "film",
+      "cinema",
+      "35mm",
+      "imax",
+      "1080p",
+      "remux",
+      "hd",
+      "uhd",
+      "4k",
+      "gb"
+    ]
+  },
+  "stats": {
+    "total": 3,
+    "withYears": 2,
+    "withMovies": 2,
+    "withDomains": 2
+  },
+  "tweets": [
+    {
+      "id": "1985101493419364510",
+      "author": "file freak",
+      "text": "Space: 1999 Collection\nAll 1080p Remux\nTV Series (1975-77)\n\nSpazio: 1999 (1975)\nItalian TV Film",
+      "links": [],
+      "quoted_author": "filesbot",
+      "quoted_text": "Download links:\nhttps://transfer.it/t/WrGtz54g8FAZ6Z\n&\nhttps://transfer.it/t/ukX2C6581RSZoK",
+      "quoted_links": [
+        "https://transfer.it/t/WrGtz54g8FAZ6Z",
+        "https://transfer.it/t/ukX2C6581RSZoK"
+      ],
+      "has_quote": true,
+      "url": "https://x.com/filefreak/status/1985101493419364510",
+      "scraped_at": "2025-11-12T06:00:00.071Z"
+    },
+    {
+      "id": "1234567890",
+      "author": "TestUser",
+      "text": "\"The Matrix\" (1999) 4K UHD Remux\n\nBonus features included",
+      "links": [
+        "https://gofile.io/d/ABC123"
+      ],
+      "quoted_author": null,
+      "quoted_text": null,
+      "quoted_links": [],
+      "has_quote": false,
+      "url": "https://x.com/testuser/status/1234567890",
+      "scraped_at": "2025-11-12T06:00:00.071Z"
+    }
+  ]
+}

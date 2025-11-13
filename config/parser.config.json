@@ -1,0 +1,90 @@
+{
+    "quality_keywords": [
+        "4k",
+        "uhd",
+        "2160p",
+        "1080p",
+        "1080i",
+        "720p",
+        "480p",
+        "remux",
+        "bluray",
+        "webrip",
+        "webdl",
+        "hdtv",
+        "vhsrip",
+        "gb",
+        "tb",
+        "collection"
+    ],
+    "type_keywords": {
+        "tv_series": [
+            "tv series",
+            "series",
+            "season",
+            "episodes"
+        ],
+        "film": [
+            "film",
+            "movie",
+            "cinema"
+        ],
+        "documentary": [
+            "documentary",
+            "doc"
+        ],
+        "tv_film": [
+            "tv film",
+            "tv movie"
+        ],
+        "game": [
+            "game",
+            "pc game",
+            "xbox",
+            "playstation",
+            "ps5",
+            "switch",
+            "steam"
+        ]
+    },
+    "title_stopwords": [
+        "collection",
+        "complete",
+        "bonus",
+        "extras",
+        "full",
+        "all",
+        "pack",
+        "download",
+        "link"
+    ],
+    "url_domains": [
+        "transfer.it",
+        "gofile.io",
+        "mega.nz",
+        "mediafire.com",
+        "drive.google.com",
+        "hubcloud.fit",
+        "boxd.it"
+    ],
+    "block_delimiters": [
+        "\n\n",
+        "\n&\n",
+        "\n---"
+    ],
+    "regex_patterns": {
+        "title_with_year": "^(.*?)\\s*\\((\\d{4})(?:-\\d{2,4})?\\)",
+        "quoted_title": "[\\\"']([^\\\"']+)[\\\"']",
+        "year": "\\b(19\\d{2}|20\\d{2})(?:-(?:\\d{2}|\\d{4}))?\\b",
+        "season_episode": "\\b(\\d+\\s*seasons?|\\d+\\s*episodes?|s\\d{1,2}e\\d{1,2})\\b",
+        "url": "https?://[^\\s\\)\\]]+",
+        "resolution": "\\b(\\d{3,4}[pi])\\b"
+    },
+    "wikidata": {
+        "enabled": true,
+        "cache_dir": "./cache/wikidata",
+        "rate_limit_ms": 500,
+        "min_confidence": 25,
+        "cache_ttl_days": 7
+    }
+}

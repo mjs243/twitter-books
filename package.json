@@ -1,0 +1,14 @@
+{
+  "name": "media-parser",
+  "version": "1.0.0",
+  "description": "Rule-based media parser for scraped tweets",
+  "main": "src/parserIndex.js",
+  "scripts": {
+    "parse": "node src/parserIndex.js",
+    "test": "node src/parserIndex.js test/sample-input.json output/parsed.json",
+    "help": "node src/parserIndex.js --help"
+  },
+  "keywords": ["parser", "media", "twitter"],
+  "author": "",
+  "license": "MIT"
+}
