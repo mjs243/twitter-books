@@ -1,249 +1,294 @@
 // src/parser.js
-const fs = require("fs").promises;
-const path = require("path");
-const TextProcessor = require("./textProcessor");
-const Extractors = require("./extractors");
-const UrlAssociator = require("./urlAssociator");
-const WikiDataClient = require("./wikidataClient");
-const CollectionSplitter = require("./collectionSplitter");
+const fs = require('fs').promises;
+const path = require('path');
+const TextProcessor = require('./textProcessor');
+const Extractors = require('./extractors');
+const UrlAssociator = require('./urlAssociator');
+const CollectionSplitter = require('./collectionSplitter');
+const WikiDataClient = require('./wikidataClient');
+
+/* ---------------- URL helpers ---------------- */
+
+const URL_PROTO_BREAK_RE = /(https?:\/\/)\s*\n+\s*/gi;
+const URL_RE = /https?:\/\/[^\s\])<>(“”"'’]+/gi;
+
+/**
+ * Repairs broken URLs across newlines and extracts all http(s) links
+ * from text + quoted_text + links arrays.
+ */
+function collectUrlsFromTweet(tweet, unifiedText) {
+  const pieces = [
+    ...(tweet.links || []),
+    ...(tweet.quoted_links || []),
+    unifiedText,
+  ];
+
+  const raw = pieces.join(' ');
+  const repaired = raw.replace(URL_PROTO_BREAK_RE, '$1');
+
+  const urls = new Set();
+  const matches = repaired.match(URL_RE) || [];
+  for (let u of matches) {
+    // strip trailing punctuation
+    u = u.replace(/[.,;:!?]+$/, '');
+    urls.add(u);
+  }
+  return Array.from(urls);
+}
+
+/* --------------- Watch-list helpers ----------- */
+
+const WATCH_TRIGGERS = [
+  /#nw\b/i,
+  /\bnow[\s-]?watching\b/i,
+  /\bjust[\s-]?watched\b/i,
+  /\bwatching\b/i,
+];
+
+function extractWatchItems(unifiedText) {
+  const lower = unifiedText.toLowerCase();
+  if (!WATCH_TRIGGERS.some((re) => re.test(lower))) return [];
+
+  const results = [];
+  const lineRe = /[“”"]([^“”"]+)[“”"]|([A-Z][A-Za-z0-9 :\-’']+)\s*\((\d{4})\)/g;
+  let m;
+  while ((m = lineRe.exec(unifiedText)) !== null) {
+    const title = (m[1] || m[2] || '').trim();
+    const year = m[3] || null;
+    if (!title) continue;
+
+    results.push({
+      title,
+      year,
+      type: 'media-interest',
+      quality: [],
+      season_episode_info: null,
+      associated_urls: [],
+      wikidata_enhanced: false,
+      isWatch: true,
+    });
+  }
+  return results;
+}
+
+/* --------------- Main class ------------------- */
 
 class MediaParser {
-    constructor(configPath = "../config/parser.config.json") {
-        this.config = require(configPath);
-        this.textProcessor = new TextProcessor(this.config);
-        this.extractors = new Extractors(this.config);
-        this.urlAssociator = new UrlAssociator(this.config);
+  constructor(configPath = '../config/parser.config.json') {
+    this.config = require(configPath);
+    this.textProcessor = new TextProcessor(this.config);
+    this.extractors = new Extractors(this.config);
+    this.urlAssociator = new UrlAssociator(this.config);
+    this.collectionSplitter = new CollectionSplitter();
 
-        this.wikidata = null;
-        if (this.config.wikidata?.enabled) {
-            this.wikidata = new WikiDataClient(this.config.wikidata.cache_dir);
+    this.wikidata = null;
+    if (this.config.wikidata?.enabled) {
+      this.wikidata = new WikiDataClient(this.config.wikidata.cache_dir);
+    }
+  }
+
+  async parseFile(inputPath, outputPath) {
+    try {
+      if (this.wikidata) await this.wikidata.init();
+
+      const raw = await fs.readFile(inputPath, 'utf8');
+      const data = JSON.parse(raw);
+
+      if (!Array.isArray(data.tweets)) {
+        throw new Error('invalid input: expected tweets array');
+      }
+
+      const processedTweets = [];
+      for (let i = 0; i < data.tweets.length; i += 1) {
+        if ((i + 1) % 10 === 0) {
+          console.log(`  processing tweet ${i + 1}/${data.tweets.length}...`);
         }
+        processedTweets.push(await this.parseTweet(data.tweets[i]));
+      }
+
+      if (this.wikidata) await this.wikidata.shutdown();
+
+      const stats = this.buildStats(processedTweets);
+      const output = {
+        ...data,
+        tweets: processedTweets,
+        parser_stats: stats,
+      };
+
+      await fs.mkdir(path.dirname(outputPath), { recursive: true });
+      await fs.writeFile(outputPath, JSON.stringify(output, null, 2), 'utf8');
+
+      console.log(
+        `\n✅ parsing complete: ${stats.tweets_processed} tweets, ` +
+          `${stats.total_media_items} items, ` +
+          `${stats.wikidata_enhanced} wikidata-enhanced`
+      );
+
+      return output;
+    } catch (err) {
+      console.error('❌ parsing failed:', err.message);
+      throw err;
+    }
+  }
+
+  async parseTweet(tweet) {
+    const unifiedText = this.textProcessor.unifyText(
+      tweet.text,
+      tweet.quoted_text
+    );
+
+    // 1. URLs (with line-break repair)
+    const allUrls = collectUrlsFromTweet(tweet, unifiedText);
+
+    // 2. Watch-list items
+    const watchItems = extractWatchItems(unifiedText);
+
+    // 3. If nothing suggests media, bail early
+    if (
+      !watchItems.length &&
+      !allUrls.length &&
+      !this.hasMediaIndicators(unifiedText)
+    ) {
+      return {
+        ...tweet,
+        parsed_media: {
+          media_items: [],
+          unassociated_urls: [],
+          skipped_reason: 'no_media_indicators',
+        },
+      };
     }
 
-    async parseFile(inputPath, outputPath) {
-        try {
-            if (this.wikidata) await this.wikidata.init();
+    const normalized = this.textProcessor.normalize(unifiedText);
+    const blocks = this.textProcessor.splitIntoBlocks(normalized);
 
-            const rawData = await fs.readFile(inputPath, "utf8");
-            const data = JSON.parse(rawData);
+    const mediaItems = [...watchItems];
+    const usedUrls = new Set();
 
-            if (!data.tweets || !Array.isArray(data.tweets)) {
-                throw new Error("invalid input: expected tweets array");
-            }
+    for (const block of blocks) {
+      const split = this.collectionSplitter.split(block);
 
-            const processedTweets = [];
-            for (let i = 0; i < data.tweets.length; i++) {
-                if ((i + 1) % 10 === 0) console.log(`  processing tweet ${i + 1}/${data.tweets.length}...`);
-                const processed = await this.parseTweet(data.tweets[i]);
-                processedTweets.push(processed);
-            }
-
-            if (this.wikidata) await this.wikidata.shutdown();
-
-            const stats = this.generateStats(processedTweets);
-            const output = { ...data, tweets: processedTweets, parser_stats: stats };
-
-            const outputDir = path.dirname(outputPath);
-            await fs.mkdir(outputDir, { recursive: true });
-            await fs.writeFile(outputPath, JSON.stringify(output, null, 2), "utf8");
-
-            console.log(`\n✅ parsing complete!`);
-            console.log(`   - tweets processed: ${stats.tweets_processed}`);
-            console.log(`   - media found: ${stats.total_media_items} items in ${stats.tweets_with_media} tweets`);
-            if (this.wikidata) console.log(`   - wikidata enhanced: ${stats.wikidata_enhanced} items`);
-            console.log(`   - output saved to: ${outputPath}`);
-
-            return output;
-        } catch (error) {
-            console.error("❌ parsing failed:", error.message, error.stack);
-            throw error;
-        }
-    }
-
-    async parseTweet(tweet) {
-        const unifiedText = this.textProcessor.unifyText(
-            tweet.text,
-            tweet.quoted_text
+      if (!split.isCollection) {
+        const item = await this.parseSingleBlock(block, allUrls, usedUrls);
+        if (item) mediaItems.push(item);
+      } else {
+        const collection = this.buildCollectionFromSplit(
+          split,
+          allUrls,
+          usedUrls
         );
+        if (collection) mediaItems.push(collection);
+      }
+    }
 
-        if (!this.mightContainMedia(tweet, unifiedText)) {
-            return {
-                ...tweet,
-                parsed_media: {
-                    media_items: [],
-                    unassociated_urls: [],
-                    skipped_reason: "no_media_indicators",
-                },
-            };
+    const unassociated = allUrls.filter((u) => !usedUrls.has(u));
+
+    return {
+      ...tweet,
+      parsed_media: {
+        media_items: mediaItems,
+        unassociated_urls: unassociated,
+      },
+    };
+  }
+
+  async parseSingleBlock(block, allUrls, usedUrls) {
+    const titleData = this.extractors.extractTitle(block);
+    if (!titleData) return null;
+
+    let item = {
+      title: titleData.title,
+      year: titleData.year || this.extractors.extractYear(block),
+      type: this.extractors.extractType(block),
+      quality: this.extractors.extractQuality(block),
+      season_episode_info: this.extractors.extractSeasonInfo(block),
+      associated_urls: this.urlAssociator.associate(block, allUrls, usedUrls),
+      wikidata_enhanced: false,
+    };
+
+    if (this.wikidata) {
+      try {
+        const res = await this.wikidata.searchMedia(item.title, item.year);
+        if (res && res.confidence >= this.config.wikidata.min_confidence) {
+          item = {
+            ...item,
+            title: res.title || item.title,
+            year: item.year || res.year,
+            type: item.type || res.type,
+            wikidata_id: res.wikidata_id,
+            imdb_id: res.imdb_id,
+            steam_id: res.steam_id,
+            wikidata_confidence: res.confidence,
+            wikidata_enhanced: true,
+          };
         }
-
-        const normalizedText = this.textProcessor.normalize(unifiedText);
-        const allUrls = this.extractUrls(tweet, normalizedText);
-        const blocks = this.textProcessor.splitIntoBlocks(normalizedText);
-
-        const mediaItems = [];
-        const usedUrls = new Set();
-
-        const splitter = new CollectionSplitter();
-        for (const block of blocks) {
-            const split = splitter.splitIfCollection(block);
-
-            if (split.single) {
-                const mediaItem = await this.parseIndividualBlock(block, allUrls, usedUrls);
-                if (mediaItem && mediaItem.title) mediaItems.push(mediaItem);
-            } else {
-                // This block represents a collection => 1 row
-                const collectionEntity = await this.buildCollectionEntity(
-                    split.collectionInfo, block, allUrls, usedUrls
-                );
-                if (collectionEntity) mediaItems.push(collectionEntity);
-            }
-        }
-
-        const unassociatedUrls = allUrls.filter((url) => !usedUrls.has(url));
-
-        return {
-            ...tweet,
-            parsed_media: { media_items: mediaItems, unassociated_urls: unassociatedUrls },
-        };
+      } catch (e) {
+        console.warn(`wikidata error for "${item.title}":`, e.message);
+      }
     }
 
-    async parseBlock(block, allUrls, usedUrls) {
-        const titleData = this.extractors.extractTitle(block);
-        if (!titleData) return null;
+    return item;
+  }
 
-        let mediaItem = {
-            title: titleData.title,
-            year: titleData.year || this.extractors.extractYear(block),
-            type: this.extractors.extractType(block),
-            quality: this.extractors.extractQuality(block),
-            season_episode_info: this.extractors.extractSeasonInfo(block),
-            associated_urls: this.urlAssociator.associate(block, allUrls, usedUrls),
-            wikidata_enhanced: false,
-        };
+  buildCollectionFromSplit(split, allUrls, usedUrls) {
+    if (!split || !split.franchise) return null;
 
-        if (this.wikidata) {
-            console.log(`  → searching wikidata for: "${mediaItem.title}" (${mediaItem.year || "no year"})`);
-            try {
-                const result = await this.wikidata.searchMedia(mediaItem.title, mediaItem.year);
-                if (result && result.confidence >= this.config.wikidata.min_confidence) {
-                    mediaItem = {
-                        ...mediaItem,
-                        title: result.title,
-                        year: mediaItem.year || result.year,
-                        type: mediaItem.type || result.type,
-                        wikidata_id: result.wikidata_id,
-                        imdb_id: result.imdb_id,
-                        steam_id: result.steam_id,
-                        wikidata_confidence: result.confidence,
-                        wikidata_enhanced: true,
-                    };
-                    console.log(`    ✓ enhanced to: "${mediaItem.title}" (conf: ${result.confidence})`);
-                } else if (result) {
-                    console.log(`    ⚠ confidence too low: ${result.confidence} < ${this.config.wikidata.min_confidence}`);
-                } else {
-                    console.log(`    ✗ no wikidata match found`);
-                }
-            } catch (error) {
-                console.warn(`    ✗ wikidata error: ${error.message}`);
-            }
-        }
-        return mediaItem;
+    // just treat the entire set of URLs as applying to the collection
+    const urlsForCollection = [];
+    for (const url of allUrls) {
+      if (!usedUrls.has(url)) {
+        urlsForCollection.push(url);
+        usedUrls.add(url);
+      }
     }
 
-    async buildCollectionEntity(collection, blockText, allUrls, usedUrls) {
-        const quality = this.extractors.extractQuality(blockText);
-        const urls = this.urlAssociator.associate(blockText, allUrls, usedUrls);
+    return {
+      title: split.franchise,
+      year: split.items?.[0]?.year || null,
+      type: 'collection',
+      quality: [], // could aggregate later
+      season_episode_info: null,
+      isCollection: true,
+      items_included: split.items || [],
+      associated_urls: urlsForCollection,
+      wikidata_enhanced: false,
+    };
+  }
 
-        return {
-            title: collection.franchise,
-            year: collection.items[0]?.year ?? null,
-            type: "collection",
-            quality,
-            season_episode_info: null,
-            isCollection: true,
-            items_included: collection.items,
-            associated_urls: urls,
-            wikidata_enhanced: false,
-        };
+  hasMediaIndicators(text) {
+    const lower = text.toLowerCase();
+
+    const hasQuality = this.config.quality_keywords.some((kw) =>
+      lower.includes(kw.toLowerCase())
+    );
+    const hasDomain = this.config.url_domains.some((d) =>
+      lower.includes(d.toLowerCase())
+    );
+    const hasYear = /\b(19|20)\d{2}\b/.test(lower);
+
+    return hasQuality || hasDomain || hasYear;
+  }
+
+  buildStats(tweets) {
+    let totalItems = 0;
+    let tweetsWithMedia = 0;
+    let wikidataEnhanced = 0;
+
+    for (const tw of tweets) {
+      const items = tw.parsed_media?.media_items || [];
+      if (items.length) tweetsWithMedia += 1;
+      totalItems += items.length;
+      wikidataEnhanced += items.filter((i) => i.wikidata_enhanced).length;
     }
 
-    async parseIndividualBlock(block, allUrls, usedUrls) {
-        const titleData = this.extractors.extractTitle(block);
-        if (!titleData) return null;
-
-        let mediaItem = {
-            title: titleData.title,
-            year: titleData.year || this.extractors.extractYear(block),
-            type: this.extractors.extractType(block),
-            quality: this.extractors.extractQuality(block),
-            season_episode_info: this.extractors.extractSeasonInfo(block),
-            associated_urls: this.urlAssociator.associate(block, allUrls, usedUrls),
-            wikidata_enhanced: false,
-        };
-
-        if (this.wikidata) {
-            const result = await this.wikidata.searchMedia(mediaItem.title, mediaItem.year);
-            if (result && result.confidence >= this.config.wikidata.min_confidence) {
-                mediaItem = { ...mediaItem, ...result, wikidata_enhanced: true };
-            }
-        }
-        return mediaItem;
-    }
-
-    mightContainMedia(tweet, unifiedText) {
-        const lowerText = unifiedText.toLowerCase();
-        const hasYear = /\b(19|20)\d{2}\b/.test(lowerText);
-        const hasQuality = this.config.quality_keywords.some((kw) => lowerText.includes(kw));
-        const hasType = Object.values(this.config.type_keywords).flat().some((kw) => lowerText.includes(kw));
-
-        const allLinksText = [
-            ...(tweet.links || []),
-            ...(tweet.quoted_links || []),
-            unifiedText,
-        ].join(" ");
-        const hasDomain = this.config.url_domains.some((d) => allLinksText.includes(d));
-
-        return hasDomain || hasYear || hasQuality || hasType;
-    }
-
-    extractUrls(tweet, unifiedText) {
-        const urls = new Set();
-        const fixLineBreaks = (text) => text.replace(/(https?:\/\/)\s*\n+\s*/gi, "$1");
-        const cleanedText = fixLineBreaks(unifiedText);
-
-        const allLinks = [...(tweet.links || []), ...(tweet.quoted_links || [])];
-        allLinks.forEach((url) => urls.add(fixLineBreaks(url).trim()));
-
-        const urlPattern = new RegExp(this.config.regex_patterns.url, "gi");
-        const matches = cleanedText.match(urlPattern) || [];
-        matches.forEach((url) => urls.add(url.replace(/[.,;!?]+$/, "")));
-
-        return Array.from(urls);
-    }
-
-    generateStats(tweets) {
-        let tweets_with_media = 0;
-        let total_media_items = 0;
-        let wikidata_enhanced = 0;
-
-        for (const tweet of tweets) {
-            const items = tweet.parsed_media?.media_items;
-            if (items?.length > 0) {
-                tweets_with_media++;
-                total_media_items += items.length;
-                wikidata_enhanced += items.filter((i) => i.wikidata_enhanced).length;
-            }
-        }
-
-        return {
-            tweets_processed: tweets.length,
-            tweets_with_media,
-            total_media_items,
-            wikidata_enhanced,
-            parsed_at: new Date().toISOString(),
-        };
-    }
+    return {
+      tweets_processed: tweets.length,
+      tweets_with_media: tweetsWithMedia,
+      total_media_items: totalItems,
+      wikidata_enhanced: wikidataEnhanced,
+      parsed_at: new Date().toISOString(),
+    };
+  }
 }
 
 module.exports = MediaParser;

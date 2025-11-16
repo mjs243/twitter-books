@@ -1,53 +1,64 @@
 // src/collectionSplitter.js
-const COLLECTION_KEYWORDS = ["collection", "complete", "all", "seasons"];
-const MULTI_RANGE_RE     = /\b\d{4}\s*-\s*\d{2,4}\b/;      // 1989-2009
+
+// words that strongly suggest a bundle, not a single item
+const COLLECTION_KEYWORDS = ['collection', 'complete', 'anthology', 'series', 'cartoon collection'];
+const YEAR_RANGE_RE = /\b(19|20)\d{2}\s*[-–]\s*\d{2,4}\b/;
+const TITLE_YEAR_RE = /^\s*([^(]+?)\s*\((\d{4}(?:\s*[-–]\s*\d{2,4})?)\)/i;
 
 class CollectionSplitter {
   /**
-   * Returns:
-   *   { single: true }                                         → keep 1 record
-   *   { single: false, collectionInfo: {...} }                 → treat as collection
-   *
-   * collectionInfo:
-   *   { franchise, items, isCollection }                       // share the URLs
+   * Decide if this block looks like a collection and, if so,
+   * return a franchise name + list of contained titles.
    */
-  splitIfCollection(blockText) {
-    const lines = blockText.split('\n').map(l => l.trim()).filter(l => l);
+  split(blockText) {
+    const lines = blockText
+      .split('\n')
+      .map((l) => l.trim())
+      .filter(Boolean);
 
-    // First line inspections
-    const first = lines[0] || '';
-    const firstLow = first.toLowerCase();
-    const hasKeyword   = COLLECTION_KEYWORDS.some(kw => firstLow.includes(kw));
-    const hasDateSpan  = MULTI_RANGE_RE.test(first);
+    if (!lines.length) {
+      return { isCollection: false };
+    }
 
-    // Build items from `(THING year)` pairs
-    const titleYearRE = /^\s*([^(]+?)\s*\((\d{4}(?:\s*[-–]\s*\d{2,4})?)\)/i;
+    const first = lines[0];
+    const firstLower = first.toLowerCase();
+
+    // collect all "Title (year...)" in block
     const items = [];
-    const detectedPairs = [];
-
-    for (const ln of lines) {
-      const m = ln.match(titleYearRE);
+    for (const line of lines) {
+      const m = line.match(TITLE_YEAR_RE);
       if (m) {
-        items.push({ title: m[1].trim(), year: m[2]?.split('-')[0] });
-        detectedPairs.push(m);
+        const rawTitle = m[1].trim();
+        const yearStr = m[2].trim();
+        const yearOnly = yearStr.split(/[-–]/)[0].trim();
+        items.push({ title: rawTitle, year: yearOnly });
       }
     }
 
-    const multiPairs = detectedPairs.length > 1;
+    const multipleTitlePairs = items.length > 1;
+    const hasKeyword = COLLECTION_KEYWORDS.some((kw) =>
+      firstLower.includes(kw)
+    );
+    const hasYearRange = YEAR_RANGE_RE.test(first);
 
-    // FINAL DECISION
-    if ((hasKeyword || hasDateSpan || multiPairs) && detectedPairs.length > 0) {
-      const franchise = first.replace(/\s*\(.*/, '').trim();
-      return {
-        single: false,
-        collectionInfo: {
-          franchise,
-          items,
-          isCollection: true,
-        },
-      };
+    // Heuristic: collection if:
+    // - multiple title/year pairs, OR
+    // - first line has collection keyword AND some title/year pairs
+    if (!multipleTitlePairs && !(hasKeyword && items.length > 0) && !hasYearRange) {
+      return { isCollection: false };
     }
-    return { single: true };
+
+    const franchise = first.replace(/\s*\(.*/, '').trim() || items[0]?.title;
+
+    if (!franchise) {
+      return { isCollection: false };
+    }
+
+    return {
+      isCollection: true,
+      franchise,
+      items,
+    };
   }
 }
 
