@@ -57,45 +57,10 @@
       "url": "https://x.com/shanaka86/status/1988229077443203317",
       "scraped_at": "2025-11-12T06:00:00.071Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "They’re Building The Machine That Ends Capitalism As We Know It",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Openai Needs $1.4 Trillion. Not Wants. Needs.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "To Drive A 10% Return On Our Modeled Ai Investments Through 2030 Would Require $650 Billion Of Annual Revenue Into Perpetuity Which Is An Astonishingly Large Number. For Context That Equates To $180/month From Every Nflx Subscriber",
-            "year": "2030",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "That's Why Sam Is Begging For A Bailout X.com/zerohedge/stat…",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -110,27 +75,10 @@
       "url": "https://x.com/hamptonism/status/1988301865503838635",
       "scraped_at": "2025-11-12T06:00:00.072Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "34% Chance Of A Recession By 2026",
-            "year": "2026",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -166,24 +114,6 @@
             "wikidata_enhanced": false
           },
           {
-            "title": "One Hundred Fifty-three Episodes",
-            "year": null,
-            "type": "tv series",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "The Manga",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
             "title": "dragon ball",
             "year": "1984",
             "type": "collection",
@@ -198,28 +128,9 @@
             ],
             "associated_urls": [],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Full Color",
-            "year": null,
-            "type": null,
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -259,6 +170,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -285,17 +197,9 @@
               "https://gofile.io/d/D1xx6y"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "2005",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -312,6 +216,7 @@
       "scraped_at": "2025-11-12T06:00:07.092Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -328,7 +233,8 @@
       "url": "https://x.com/janrosenow/status/1987794603982938338",
       "scraped_at": "2025-11-12T06:00:07.093Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Solar’s Price Drop Is Astonishing",
             "year": "2004",
@@ -363,19 +269,11 @@
       "url": "https://x.com/NotHreos67/status/1987548791084642384",
       "scraped_at": "2025-11-12T06:00:07.093Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Yoga Literally Saves Lives , These Are My Faves That I’ve Been Watching Since 2021",
             "year": "2021",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": null,
             "type": null,
             "quality": [],
             "season_episode_info": null,
@@ -412,20 +310,9 @@
             "wikidata_id": "Q208263",
             "imdb_id": "tt0120689",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -455,34 +342,9 @@
             "wikidata_id": "Q27918412",
             "imdb_id": "tt2261287",
             "wikidata_confidence": 80
-          },
-          {
-            "title": "4k Uhd Remux (72.84gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -509,28 +371,9 @@
               "https://drive.google.com/drive/folders/"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Drive/torrent Legendado (Eng/fre/ptbr/spa Subs)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "tb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "11pragegkcc1ja-bmrko-qewdimgtgg0c",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -557,17 +400,9 @@
               "https://transfer.it/t/huOgykwhkLwT"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "File",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -597,28 +432,9 @@
             "wikidata_id": "Q753164",
             "imdb_id": "tt0194376",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "Modern Controller Support",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Silent Hill (1999) Original Soundtrack",
-            "year": "1999",
-            "type": null,
-            "quality": [
-              "tb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -634,27 +450,10 @@
       "url": "https://x.com/thescottbarber/status/1987546005244612756",
       "scraped_at": "2025-11-12T06:00:12.110Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "It Will Never Cease To Boggle My Mind Just How Recent Segregation Was.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "1955",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -670,6 +469,7 @@
       "scraped_at": "2025-11-12T06:00:18.114Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -696,7 +496,8 @@
             ],
             "season_episode_info": null,
             "associated_urls": [
-              "https://boxd.it/rE7a"
+              "https://boxd.it/rE7a",
+              "https://transfer.it/t/PNJ46d1lgbCA"
             ],
             "wikidata_enhanced": true,
             "wikidata_id": "Q104902025",
@@ -704,9 +505,8 @@
             "wikidata_confidence": 105
           }
         ],
-        "unassociated_urls": [
-          "https://transfer.it/t/PNJ46d1lgbCA"
-        ]
+        "media_interest_items": [],
+        "unassociated_urls": []
       }
     },
     {
@@ -739,67 +539,9 @@
               "https://transfer.it/t/2Bjwq19FwBrb"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Series (22.31gb Total)",
-            "year": null,
-            "type": "tv series",
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Seasons 1-4",
-            "year": null,
-            "type": "tv series",
-            "quality": [
-              "480p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Seasons 5-11",
-            "year": null,
-            "type": "tv series",
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "And",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Aqua Teen Hunger Force Colon Movie Film for Theaters",
-            "year": "2007",
-            "type": "film",
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q3234068",
-            "imdb_id": "tt0455326",
-            "wikidata_confidence": 105
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -833,20 +575,6 @@
               "https://transfer.it/t/ov63H89lzZbB"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "X-Men",
-            "year": "1989",
-            "type": "film",
-            "quality": [
-              "480p"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q106182",
-            "imdb_id": "tt0120903",
-            "wikidata_confidence": 80
           },
           {
             "title": "x-men: the animated series",
@@ -897,6 +625,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -926,20 +655,9 @@
             "wikidata_id": "Q320236",
             "imdb_id": "tt0799934",
             "wikidata_confidence": 80
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -970,27 +688,6 @@
             "wikidata_confidence": 70
           },
           {
-            "title": "1080p (4k Coming Soon)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "1080p"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Subs",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
             "title": "bonus:",
             "year": "1818",
             "type": "collection",
@@ -1015,6 +712,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1030,27 +728,10 @@
       "url": "https://x.com/niaws_t/status/1986513818873213351",
       "scraped_at": "2025-11-12T06:00:42.127Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "“People Hate Kim For No Reason” Well…",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "2026",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -1079,20 +760,9 @@
             "wikidata_id": "Q724960",
             "imdb_id": "tt0092675",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1121,20 +791,9 @@
             "wikidata_enhanced": true,
             "wikidata_id": "Q85772267",
             "wikidata_confidence": 70
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1168,6 +827,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1183,27 +843,10 @@
       "url": "https://x.com/el_budget/status/1986079929499271428",
       "scraped_at": "2025-11-12T06:00:52.130Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "The Mohawk Era Is One Of The Darkest Times In Recorded History",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "2006",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -1232,35 +875,9 @@
             "wikidata_id": "Q20899737",
             "imdb_id": "tt4262980",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (82.44gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "I Previously Shared My Remux Hybrid Of The Jpn 4k Uhd Release; This One Is The New Us Release. It Has Better Subtitles Than My Hybrid!! If You Got My Hybrid, Replace It With This Superior Version!",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1276,29 +893,10 @@
       "url": "https://x.com/clubedodrivee/status/1986460030363975847",
       "scraped_at": "2025-11-12T06:00:52.131Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "Hong Kong Cinema Is Just Mafia And People Beating Each Other Up",
-            "year": "1987",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Drive/torrent Legendado (Eng/fre/ptbr Subs) X.com/linksdoclube/s…",
-            "year": null,
-            "type": "documentary",
-            "quality": [
-              "tb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -1324,22 +922,9 @@
               "https://transfer.it/t/WqIPKl8VXZZY"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "4k Uhd Remux (76.45gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1366,17 +951,9 @@
               "http://drsapirstein.blogspot.com"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "#Download #Hd #Depalma #Phantom #Cinema #Musical #Unreleased",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1393,6 +970,7 @@
       "scraped_at": "2025-11-12T06:01:03.133Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -1425,6 +1003,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1454,17 +1033,9 @@
               "https://transfer.it/t/drUetpoDzTjY"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1499,17 +1070,9 @@
             "wikidata_enhanced": true,
             "wikidata_id": "Q83563306",
             "wikidata_confidence": 70
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1539,17 +1102,9 @@
             "wikidata_id": "Q3139413",
             "imdb_id": "tt0095312",
             "wikidata_confidence": 55
-          },
-          {
-            "title": "The Stranger",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1583,19 +1138,9 @@
               "https://transfer.it/t/UCnUHa4ljJCT"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Collection By",
-            "year": null,
-            "type": null,
-            "quality": [
-              "collection"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1632,23 +1177,6 @@
             "wikidata_enhanced": false
           },
           {
-            "title": "The Movie",
-            "year": "1996",
-            "type": "film",
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q7752538",
-            "imdb_id": "tt0697735",
-            "wikidata_confidence": 80
-          },
-          {
             "title": "the tv series",
             "year": "2014",
             "type": "collection",
@@ -1665,6 +1193,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1698,20 +1227,9 @@
               "https://transfer.it/t/Q1wQuptzgbCL"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1727,7 +1245,8 @@
       "url": "https://x.com/illjoy_/status/1986137860131484132",
       "scraped_at": "2025-11-12T06:01:28.140Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Ballad of a Small Player",
             "year": null,
@@ -1742,15 +1261,6 @@
             "title": "Lmfao At This Being How I Find Out This Movie Starring An Actor I Love Directed By A Guy Who’s Last Two Movies Won 5 Total Academy Awards Came Out A Week Ago And Like Nobody Is Talking About It. I Don’t Even Like Berger But It’s Insane How Much Netflix Sucks At Everything",
             "year": null,
             "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": null,
-            "type": null,
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [],
@@ -1786,37 +1296,9 @@
             "wikidata_id": "Q47654",
             "imdb_id": "tt0076666",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (57.21gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": "1977",
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "1080p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1850,6 +1332,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1865,7 +1348,8 @@
       "url": "https://x.com/santodrive2/status/1986222427999793551",
       "scraped_at": "2025-11-12T06:01:42.142Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "1080p (1.11 Gb) Eng Subs",
             "year": null,
@@ -1908,21 +1392,9 @@
             "wikidata_id": "Q244315",
             "imdb_id": "tt0469494",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1954,6 +1426,7 @@
             "wikidata_confidence": 55
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -1983,29 +1456,9 @@
               "https://transfer.it/t/eRXye8slxJLa"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Part 02",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2041,26 +1494,9 @@
               "https://transfer.it/t/36JKkIsx3ZxZ"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Curated By",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "A Pioneer Of The French New Wave, Blending Fiction And Documentary With Humor, Empathy, And Visual Poetry. Her Cinema Turns Everyday Life Into Art, Capturing People, Places, And Memories.",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2089,8 +1525,8 @@
             "wikidata_enhanced": false
           },
           {
-            "title": "𝘴 𝘔𝘺 𝘊𝘢𝘳? Told Us Which Sexy \nVideo Game Girl Had The Best Assets \n---Quoted Tweet---\n𝑮𝟒",
-            "year": "2005",
+            "title": "We Used To Have A Show Where Zoltan From",
+            "year": null,
             "type": "game",
             "quality": [],
             "season_episode_info": null,
@@ -2098,31 +1534,12 @@
               "https://transfer.it/t/EwQ4uBoTGDZb"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "A 4-part Beauty Pageant Special Featuring Female",
-            "year": null,
-            "type": "game",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [
-              "https://pic.x.com/7unkzD1BGH"
-            ],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Compilation [",
-            "year": null,
-            "type": null,
-            "quality": [
-              "vhsrip"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
-        "unassociated_urls": []
+        "media_interest_items": [],
+        "unassociated_urls": [
+          "https://pic.x.com/7unkzD1BGH"
+        ]
       }
     },
     {
@@ -2151,34 +1568,9 @@
             "wikidata_id": "Q106506",
             "imdb_id": "tt0119116",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (76.09gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2208,20 +1600,9 @@
             "wikidata_id": "Q29641342",
             "imdb_id": "tt7160176",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2237,27 +1618,10 @@
       "url": "https://x.com/jkbrainrot/status/1985876561661206745",
       "scraped_at": "2025-11-12T06:01:57.146Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "He Really Stole Her Youth And Now She’s Too Old To Be Bisexual",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "2009",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -2272,7 +1636,8 @@
       "url": "https://x.com/santodrive2/status/1986203015121150379",
       "scraped_at": "2025-11-12T06:01:57.146Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "New 4k Restoration From The Original Camera Negative",
             "year": null,
@@ -2321,64 +1686,9 @@
               "https://transfer.it/t/Xrj6Wtk1RRJL"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Ova 1",
-            "year": null,
-            "type": null,
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Ova 2",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Ova 3",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Ova 4",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Ova 5",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2408,17 +1718,9 @@
               "https://transfer.it/t/SQDtj75BkZgL"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Also Including",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2445,35 +1747,9 @@
               "https://theintercept.com/2025/11/04/you"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "No Community Guidelines Violated & 3 Separate Excuses Given To Me. Then Google Deleted My Email & Won’t Respond To Appeals.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "How It’s Going",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Tube-google-israel-palestine-human-rights-censorship/",
-            "year": "2025",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2503,34 +1779,9 @@
             "wikidata_id": "Q1754980",
             "imdb_id": "tt1817273",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (86.48gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2564,17 +1815,9 @@
               "https://transfer.it/t/yLpxS4tlzbQa"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2591,6 +1834,7 @@
       "scraped_at": "2025-11-12T06:02:12.150Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -2624,6 +1868,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2639,7 +1884,8 @@
       "url": "https://x.com/santodrive2/status/1984909348275949804",
       "scraped_at": "2025-11-12T06:02:27.152Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "1080p (4.39 Gb) Subs",
             "year": null,
@@ -2668,7 +1914,8 @@
       "url": "https://x.com/santodrive2/status/1985170526826864762",
       "scraped_at": "2025-11-12T06:02:27.152Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "1080p Remux (16.80 Gb) Eng/ger Subs",
             "year": null,
@@ -2709,17 +1956,9 @@
               "http://drsapirstein.blogspot.com"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "#Download #Hd #Samraimi #Evildead #Cinema #Horror #Originalcut #Unreleased",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2749,21 +1988,9 @@
             "wikidata_id": "Q1640076",
             "imdb_id": "tt0071615",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2794,6 +2021,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2822,6 +2050,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2848,20 +2077,9 @@
               "https://transfer.it/t/PrylaxsB2J5Z"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2878,6 +2096,7 @@
       "scraped_at": "2025-11-12T06:02:27.153Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -2908,20 +2127,9 @@
             "wikidata_id": "Q1340462",
             "imdb_id": "tt0371055",
             "wikidata_confidence": 80
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "480p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -2967,17 +2175,9 @@
               "https://transfer.it/t/s1x37klVRZyY"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3006,17 +2206,9 @@
               "https://transfer.it/t/yf0VZNgDTTTT"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3032,7 +2224,8 @@
       "url": "https://x.com/BlackMediaHub/status/1985074533183652266",
       "scraped_at": "2025-11-12T06:02:42.158Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Morgan Freeman In 1971.",
             "year": "1971",
@@ -3072,34 +2265,9 @@
             "wikidata_id": "Q104123",
             "imdb_id": "tt0110912",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (77.77gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3128,29 +2296,9 @@
               "https://gofile.io/d/cofW1l"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "The Shining 35mm Open Matte",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Blade Runner",
-            "year": "1982",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q184843",
-            "imdb_id": "tt0083658",
-            "wikidata_confidence": 105
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3166,7 +2314,8 @@
       "url": "https://x.com/sohamncheese/status/1984813827196629059",
       "scraped_at": "2025-11-12T06:02:57.162Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "The Fog (John Carpenter, 1980)",
             "year": "1980",
@@ -3244,31 +2393,9 @@
             ],
             "associated_urls": [],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "And Bonus!",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Space: 1999",
-            "year": "1975",
-            "type": "film",
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q1045743",
-            "imdb_id": "tt0072564",
-            "wikidata_confidence": 30
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3295,17 +2422,9 @@
               "https://transfer.it/t/5SqPLNgzRbrA"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "A Documentary Told By Vincent Price Of The Dracula",
-            "year": null,
-            "type": "documentary",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3321,27 +2440,10 @@
       "url": "https://x.com/ScoobyScream/status/1984744179411329328",
       "scraped_at": "2025-11-12T06:03:12.165Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "Genuinely One Of The Greatest Posters Ever",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "2002",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -3356,7 +2458,8 @@
       "url": "https://x.com/Acyn/status/1985148960986821014",
       "scraped_at": "2025-11-12T06:03:12.165Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Reporter",
             "year": "2023",
@@ -3420,87 +2523,9 @@
             ],
             "associated_urls": [],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Anime",
-            "year": null,
-            "type": "game",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q135079339",
-            "steam_id": "3683030",
-            "wikidata_confidence": 80
-          },
-          {
-            "title": "Gantz",
-            "year": "2004",
-            "type": "film",
-            "quality": [
-              "1080i",
-              "480p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q129657",
-            "imdb_id": "tt1525835",
-            "wikidata_confidence": 80
-          },
-          {
-            "title": "Movies",
-            "year": "2008",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q114538970",
-            "wikidata_confidence": 70
-          },
-          {
-            "title": "Gantz",
-            "year": "2010",
-            "type": "film",
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q129657",
-            "imdb_id": "tt1525835",
-            "wikidata_confidence": 105
-          },
-          {
-            "title": "Gantz: Perfect Answer - Extended Cut",
-            "year": "2011",
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Gants: O",
-            "year": "2016",
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3518,38 +2543,18 @@
       "parsed_media": {
         "media_items": [
           {
-            "title": "The Man from London",
-            "year": "2007",
-            "type": "film",
+            "title": "The Man From London",
+            "year": null,
+            "type": null,
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [
               "https://transfer.it/t/58aSW01n2JbR"
             ],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q1107998",
-            "imdb_id": "tt0415127",
-            "wikidata_confidence": 80
-          },
-          {
-            "title": "In This Folder You'll Find",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "• An English Translation Of The 1933 Novel By Georges Simenon.",
-            "year": "1933",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3573,22 +2578,13 @@
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [
-              "https://drive.google.com/drive/folders/"
-            ],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Vk Playlist",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [
+              "https://drive.google.com/drive/folders/",
               "https://vkvideo.ru/playlist/-2299"
             ],
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3615,15 +2611,15 @@
             ],
             "season_episode_info": null,
             "associated_urls": [
-              "https://transfer.it/t/MfKHLv5BRbga"
+              "https://transfer.it/t/MfKHLv5BRbga",
+              "https://transfer.it/t/zEvyKzplELAB",
+              "https://transfer.it/t/ngX6OygjAJqK"
             ],
             "wikidata_enhanced": false
           }
         ],
-        "unassociated_urls": [
-          "https://transfer.it/t/zEvyKzplELAB",
-          "https://transfer.it/t/ngX6OygjAJqK"
-        ]
+        "media_interest_items": [],
+        "unassociated_urls": []
       }
     },
     {
@@ -3666,6 +2662,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3695,20 +2692,9 @@
             "wikidata_id": "Q1631381",
             "imdb_id": "tt0099800",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3740,6 +2726,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3769,22 +2756,9 @@
             "wikidata_id": "Q180337",
             "imdb_id": "tt0421238",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (65.63gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3814,34 +2788,9 @@
             "wikidata_id": "Q108839994",
             "imdb_id": "tt15398776",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (82.98gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3875,19 +2824,9 @@
               "https://transfer.it/t/HkzqEY1hAbYC"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "All Filmography",
-            "year": null,
-            "type": "film",
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3908,10 +2847,7 @@
             "title": "Amazing Things Are Happening In Film Twitter",
             "year": null,
             "type": "film",
-            "quality": [
-              "4k",
-              "collection"
-            ],
+            "quality": [],
             "season_episode_info": null,
             "associated_urls": [
               "https://gofile.io/d/Q3h5qv"
@@ -3919,6 +2855,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3949,21 +2886,9 @@
               "https://letterboxd.com/films/in/child"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "S-play-collection",
-            "year": null,
-            "type": "film",
-            "quality": [
-              "4k",
-              "1080p",
-              "collection"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -3979,27 +2904,10 @@
       "url": "https://x.com/TheDougFiles/status/1984955763664560406",
       "scraped_at": "2025-11-12T06:03:57.175Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "Holy Shit This Shot Is Insane",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "1973",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -4028,34 +2936,9 @@
             "wikidata_id": "Q103474",
             "imdb_id": "tt0062622",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (73.1gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4071,7 +2954,8 @@
       "url": "https://x.com/MrCoopersVideo/status/1985084149775126713",
       "scraped_at": "2025-11-12T06:03:57.175Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Horse Girl",
             "year": "2020",
@@ -4122,6 +3006,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4137,7 +3022,8 @@
       "url": "https://x.com/VinciusMedeiro6/status/1984734706735157625",
       "scraped_at": "2025-11-12T06:04:12.178Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "I Just Uploaded A Repack Of The 1999 Pc Port Of The South Park Fps Developed By Iguana Entertainment, I Got Asked By Someone To Do It And Here It Is.",
             "year": "1999",
@@ -4172,7 +3058,8 @@
       "url": "https://x.com/DiscussingFilm/status/1984333724042084468",
       "scraped_at": "2025-11-12T06:04:12.178Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "First Look At The Return Of ‘Fear Factor’, Now Hosted By Johnny Knoxville.",
             "year": null,
@@ -4218,26 +3105,9 @@
               "https://drive.google.com/drive/folders/"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "English, German, Spanish, French, Italian And Dutch Subtitles",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "1-r0etsyg1ujl_hkr27zn3yk8eetkm3rt?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4253,7 +3123,8 @@
       "url": "https://x.com/captainatomIDC/status/1984558106479903019",
       "scraped_at": "2025-11-12T06:04:27.181Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "The Witches",
             "year": "1990",
@@ -4296,20 +3167,9 @@
             "wikidata_id": "Q261923",
             "imdb_id": "tt0113161",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4325,7 +3185,8 @@
       "url": "https://x.com/Sangram_SHK/status/1984122164925309313",
       "scraped_at": "2025-11-12T06:04:42.183Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "My Favorite First Watches Of October",
             "year": null,
@@ -4379,7 +3240,8 @@
       "url": "https://x.com/DannyDrinksWine/status/1984358968156623330",
       "scraped_at": "2025-11-12T06:04:42.184Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "For Me, Making A Horror Film Is Like Telling Fairy Tales.",
             "year": null,
@@ -4424,6 +3286,7 @@
       "scraped_at": "2025-11-12T06:04:42.184Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -4475,32 +3338,9 @@
               "https://transfer.it/t/XxxEm1t3hZLT"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Hong Kong Cut",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Us Cut",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4516,7 +3356,8 @@
       "url": "https://x.com/CinemaisSimple/status/1984298701121020072",
       "scraped_at": "2025-11-12T06:04:42.184Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Cemetery Man",
             "year": "1994",
@@ -4545,7 +3386,8 @@
       "url": "https://x.com/HeavyMetalInk/status/1984287619346309251",
       "scraped_at": "2025-11-12T06:04:42.184Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "“Videodrome”",
             "year": "1983",
@@ -4596,6 +3438,7 @@
             "wikidata_confidence": 105
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4611,7 +3454,8 @@
       "url": "https://x.com/staidindoors/status/1984290184931012986",
       "scraped_at": "2025-11-12T06:04:57.187Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Favorite First Watches Of October",
             "year": null,
@@ -4665,7 +3509,8 @@
       "url": "https://x.com/Jeanna350/status/1984381125721260119",
       "scraped_at": "2025-11-12T06:04:57.187Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Return Of The Living Dead 1985 #Moviesforhalloween",
             "year": "1985",
@@ -4709,57 +3554,9 @@
               "https://transfer.it/t/9PTo7tsThTwR"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Batman Begins",
-            "year": "2005",
-            "type": "film",
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q166262",
-            "imdb_id": "tt0372784",
-            "wikidata_confidence": 80
-          },
-          {
-            "title": "The Dark Knight",
-            "year": "2008",
-            "type": "film",
-            "quality": [
-              "4k",
-              "uhd",
-              "1080p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q163872",
-            "imdb_id": "tt0468569",
-            "wikidata_confidence": 80
-          },
-          {
-            "title": "The Dark Knight Rises",
-            "year": "2012",
-            "type": "film",
-            "quality": [
-              "4k",
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q189330",
-            "imdb_id": "tt1345836",
-            "wikidata_confidence": 55
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4776,6 +3573,7 @@
       "scraped_at": "2025-11-12T06:05:12.189Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -4805,6 +3603,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4820,7 +3619,8 @@
       "url": "https://x.com/26mfhpod/status/1984450280436744374",
       "scraped_at": "2025-11-12T06:05:12.190Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Strange Behavior",
             "year": "1981",
@@ -4850,6 +3650,7 @@
       "scraped_at": "2025-11-12T06:05:12.190Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -4866,27 +3667,10 @@
       "url": "https://x.com/shadowknightdk/status/1983905566574481479",
       "scraped_at": "2025-11-12T06:05:12.190Z",
       "parsed_media": {
-        "media_items": [
-          {
-            "title": "Every Film Should Look Like This",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "2025",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          }
-        ],
-        "unassociated_urls": []
+        "media_items": [],
+        "media_interest_items": [],
+        "unassociated_urls": [],
+        "skipped_reason": "no_media_indicators"
       }
     },
     {
@@ -4901,20 +3685,12 @@
       "url": "https://x.com/staidindoors/status/1983907621297082749",
       "scraped_at": "2025-11-12T06:05:12.190Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "So I Guess Joyce Carol Oates Has Never Seen Zardoz",
             "year": "1974",
             "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "A Movie Changes Your Life",
-            "year": null,
-            "type": "film",
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [],
@@ -4949,6 +3725,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -4978,17 +3755,9 @@
             "wikidata_id": "Q7958812",
             "imdb_id": "tt0083310",
             "wikidata_confidence": 55
-          },
-          {
-            "title": "#31daysofhalloween #Comedy",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5018,30 +3787,9 @@
             "wikidata_id": "Q753164",
             "imdb_id": "tt0194376",
             "wikidata_confidence": 80
-          },
-          {
-            "title": "Open Matte (Open Matte 16",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Subs",
-            "year": null,
-            "type": null,
-            "quality": [
-              "tb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5071,38 +3819,9 @@
               "https://transfer.it/t/twYMj1xhHDCQ"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Radiance Rip W/ Extras, Audio Commentaries, Alternate Cuts, Alternate Soundtracks, A Narration By William S. Burroughs!",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": "1922",
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Radiance Rip W/ Extras, Audio Commentaries, Alternate Cuts, Alternate Soundtracks, A Narration By William S. Burroughs!",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5132,42 +3851,9 @@
             "wikidata_id": "Q60834962",
             "imdb_id": "tt1160419",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "Part One",
-            "year": null,
-            "type": "unknown",
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q66474023",
-            "imdb_id": "tt8805234",
-            "wikidata_confidence": 80
-          },
-          {
-            "title": "Part Two",
-            "year": null,
-            "type": "unknown",
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q66474024",
-            "imdb_id": "tt8805238",
-            "wikidata_confidence": 80
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5196,6 +3882,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5221,7 +3908,8 @@
             ],
             "season_episode_info": null,
             "associated_urls": [
-              "https://boxd.it/8SeG"
+              "https://boxd.it/8SeG",
+              "https://transfer.it/t/0hctTU0zlbYD"
             ],
             "wikidata_enhanced": true,
             "wikidata_id": "Q18547944",
@@ -5229,9 +3917,8 @@
             "wikidata_confidence": 105
           }
         ],
-        "unassociated_urls": [
-          "https://transfer.it/t/0hctTU0zlbYD"
-        ]
+        "media_interest_items": [],
+        "unassociated_urls": []
       }
     },
     {
@@ -5257,91 +3944,9 @@
               "https://drive.google.com/drive/folders/"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Funny Ha Ha",
-            "year": "2002",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q5509367",
-            "imdb_id": "tt0327753",
-            "wikidata_confidence": 105
-          },
-          {
-            "title": "14vmmyqohwmy3de4eyijn-p0eejoe5dfb?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Mutual Appreciation",
-            "year": "2005",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q6944150",
-            "imdb_id": "tt0446747",
-            "wikidata_confidence": 105
-          },
-          {
-            "title": "1gtqvr0rtb5vo_5efs5gq4ckojvd0ac2l?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [
-              "tb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Computer Chess",
-            "year": "2013",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q13512523",
-            "imdb_id": "tt2007360",
-            "wikidata_confidence": 105
-          },
-          {
-            "title": "1rujus9vpi1nkr9oaoksorgpm04w_r9t8?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Results",
-            "year": "2015",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "1ivmxjas0czvsl7hldezvivxkprs0exzk?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5371,17 +3976,9 @@
             "wikidata_id": "Q64017",
             "imdb_id": "tt0938330",
             "wikidata_confidence": 55
-          },
-          {
-            "title": "#31daysofhorror #31daysofhalloween #Horror",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5397,7 +3994,8 @@
       "url": "https://x.com/lilbirdliv/status/1984072369548485032",
       "scraped_at": "2025-11-12T06:05:42.195Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Night Of The Demon (Jacques Tourneur, 1957)",
             "year": "1957",
@@ -5423,7 +4021,8 @@
       "url": "https://x.com/hering_david/status/1984168077315957133",
       "scraped_at": "2025-11-12T06:05:42.195Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Skinflicker",
             "year": "1972",
@@ -5460,17 +4059,9 @@
               "https://drive.google.com/drive/folders/"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "1nrqcpbdh3_nrg9ylq6igp3njwnyvd1-l",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5487,6 +4078,7 @@
       "scraped_at": "2025-11-12T06:05:42.196Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -5503,20 +4095,12 @@
       "url": "https://x.com/CinemaJoys/status/1984009299891560705",
       "scraped_at": "2025-11-12T06:05:42.196Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Cure",
             "year": "1997",
             "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "1. The Silence Of The Lambs",
-            "year": null,
-            "type": null,
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [],
@@ -5538,7 +4122,8 @@
       "url": "https://x.com/HauntedMovies/status/1983951367069704275",
       "scraped_at": "2025-11-12T06:05:42.196Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Them!",
             "year": "1954",
@@ -5567,7 +4152,8 @@
       "url": "https://x.com/sebastian35mm/status/1984296367414481256",
       "scraped_at": "2025-11-12T06:05:57.198Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "S A Collection Of Key Movies From My Database. This Is By No Means Exhaustive - It",
             "year": null,
@@ -5581,15 +4167,12 @@
           },
           {
             "title": "Part 1",
-            "year": "2017",
-            "type": "unknown",
+            "year": null,
+            "type": null,
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q47090887",
-            "imdb_id": "tt4108304",
-            "wikidata_confidence": 80
+            "wikidata_enhanced": false
           },
           {
             "title": "Instructions On My Pinned Post.",
@@ -5616,7 +4199,8 @@
       "url": "https://x.com/drivelexandria/status/1984092601033572533",
       "scraped_at": "2025-11-12T06:05:57.198Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "• 2h12min",
             "year": "1979",
@@ -5651,7 +4235,8 @@
       "url": "https://x.com/horrordrives/status/1984311178592403862",
       "scraped_at": "2025-11-12T06:06:12.202Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "The Black House",
             "year": "1999",
@@ -5694,29 +4279,9 @@
             "wikidata_id": "Q1362240",
             "imdb_id": "tt0059309",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "Subtitles In Portuguese And English",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "1wlosvf8tw_n5mg7emjeqp76fcj40vrpl?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5745,6 +4310,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5776,6 +4342,7 @@
             "wikidata_confidence": 105
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5802,17 +4369,9 @@
               "https://gofile.io/d/OneYxi"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": "1971",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5842,26 +4401,9 @@
             "wikidata_id": "Q2712128",
             "imdb_id": "tt0090182",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "Legendas Em Português E Espanhol",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "1umwtrffhqihmqrrcl98prhcfcumrs9cc?usp=sharing",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5891,38 +4433,9 @@
               "https://transfer.it/t/UbUktrwxmBKB"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Like If Georges Méliès Kept Making Movies But Started Taking His Characters To Hell Instead Of The Moon.",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": "1925",
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Like If Georges Méliès Kept Making Movies But Started Taking His Characters To Hell Instead Of The Moon.",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -5952,22 +4465,9 @@
             "wikidata_id": "Q272860",
             "imdb_id": "tt0080678",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (88.25gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6000,6 +4500,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6018,7 +4519,7 @@
         "media_items": [
           {
             "title": "A Great Film Rhat Too Few People Have Seen",
-            "year": "2024",
+            "year": null,
             "type": "film",
             "quality": [],
             "season_episode_info": null,
@@ -6028,6 +4529,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6072,6 +4574,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6101,20 +4604,9 @@
             "wikidata_id": "Q666082",
             "imdb_id": "tt0055018",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6146,17 +4638,9 @@
             "wikidata_id": "Q107368708",
             "imdb_id": "tt10341034",
             "wikidata_confidence": 80
-          },
-          {
-            "title": "An Innocent Youth Is Abducted And Dragged Down Into A Dystopian Nightmare Where Teenage Lydia Lunch Throws Him Into The Black Box.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6172,7 +4656,8 @@
       "url": "https://x.com/Mavericstar/status/1984250921174610371",
       "scraped_at": "2025-11-12T06:06:42.207Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Game of Thrones",
             "year": null,
@@ -6190,7 +4675,7 @@
           {
             "title": "-In Depth Material To Immerse In This World.",
             "year": null,
-            "type": null,
+            "type": "book",
             "quality": [
               "gb"
             ],
@@ -6237,35 +4722,9 @@
             "wikidata_id": "Q237222",
             "imdb_id": "tt0086979",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Uhd Remux (56.87gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "1080p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6292,17 +4751,9 @@
               "https://transfer.it/t/paKMqZ4jyB5b"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6329,17 +4780,9 @@
               "https://transfer.it/t/tdnPOJw1DDyL"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "#Joeywong #Joeywang #Joycegodenzi #藍乃才",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6372,17 +4815,9 @@
             "wikidata_id": "Q810280",
             "imdb_id": "tt0083624",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6411,6 +4846,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6440,20 +4876,9 @@
             "wikidata_id": "Q117743183",
             "imdb_id": "tt13649510",
             "wikidata_confidence": 80
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6469,7 +4894,8 @@
       "url": "https://x.com/MrCoopersVideo/status/1983441305201160449",
       "scraped_at": "2025-11-12T06:06:57.211Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Nosferatu",
             "year": "2024",
@@ -6524,17 +4950,9 @@
               "https://vkvideo.ru/video-22995175"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Legendado",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6579,6 +4997,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6605,17 +5024,9 @@
               "https://drive.google.com/drive/folders/"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "1ixqpqx9ud-mdietkqxw5yboqnxkgnruy",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6647,19 +5058,9 @@
             "wikidata_id": "Q5351244",
             "imdb_id": "tt0055966",
             "wikidata_confidence": 30
-          },
-          {
-            "title": "17ak9mh4kqla6au_uwlikaoxden61vpgd",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6688,17 +5089,9 @@
             "wikidata_enhanced": true,
             "wikidata_id": "Q7941908",
             "wikidata_confidence": 70
-          },
-          {
-            "title": "Neo-noir Detective Lydia Lunch Plows Her Way Through The Plans Of A Corporate Businessman Who Seeks Government Defense Contracts Through Real “Corporate Wars” And The Manipulation Of Politicians.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6714,7 +5107,8 @@
       "url": "https://x.com/AlanSmitheeThe3/status/1984027001473413227",
       "scraped_at": "2025-11-12T06:07:12.214Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Hideshi Hino's Guinea Pig 2: Flower Of Flesh And Blood",
             "year": "1985",
@@ -6761,7 +5155,7 @@
         "media_items": [
           {
             "title": "Nobody Ever Mentions That It's The Sequel To Wild At Heart/sailor And Lula.",
-            "year": "1997",
+            "year": null,
             "type": null,
             "quality": [],
             "season_episode_info": null,
@@ -6770,35 +5164,9 @@
               "https://eternal.tv/programs/perdi"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Ta-durango",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "An Amoral Couple Practice Voodoo And Commit A Series Of Violent, Bloody Crimes On Their Way To Las Vegas.",
-            "year": null,
-            "type": "tv series",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Directed By áLex De La",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6828,20 +5196,9 @@
             "wikidata_id": "Q32067450",
             "imdb_id": "tt5688932",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6871,32 +5228,9 @@
             "wikidata_id": "Q107176162",
             "imdb_id": "tt10954984",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "4k Imax (63.75gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -6930,51 +5264,9 @@
               "https://transfer.it/t/Waufn40zQb7L"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Theatrical Cut - Hello Jadu",
-            "year": "2016",
-            "type": "film",
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q24000644",
-            "wikidata_confidence": 45
-          },
-          {
-            "title": "Director’s Cut",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Special Edition",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "1080p",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7001,40 +5293,13 @@
             ],
             "season_episode_info": null,
             "associated_urls": [
-              "https://transfer.it/t/9bssyZpFyZrY"
-            ],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": "1978",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [
+              "https://transfer.it/t/9bssyZpFyZrY",
               "https://gofile.io/d/ccmp5k"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "A Huge Thank You To 𝑆𝑖𝑙𝑒𝑛𝑐𝑒 𝐷𝑜𝑔𝑜𝑜𝑑 For Your Work.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "#Horror #Halloween #31daysofhalloween",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7061,20 +5326,9 @@
               "https://transfer.it/t/xOTwnksVQJab"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "480p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7093,21 +5347,19 @@
         "media_items": [
           {
             "title": "Here You Go",
-            "year": "2025",
+            "year": null,
             "type": null,
-            "quality": [
-              "1080p"
-            ],
+            "quality": [],
             "season_episode_info": null,
             "associated_urls": [
-              "https://boxd.it/jqdM"
+              "https://boxd.it/jqdM",
+              "https://transfer.it/t/4r9K3Q0TSDIA"
             ],
             "wikidata_enhanced": false
           }
         ],
-        "unassociated_urls": [
-          "https://transfer.it/t/4r9K3Q0TSDIA"
-        ]
+        "media_interest_items": [],
+        "unassociated_urls": []
       }
     },
     {
@@ -7138,6 +5390,7 @@
             "wikidata_confidence": 30
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7167,20 +5420,9 @@
             "wikidata_id": "Q1138055",
             "imdb_id": "tt0113253",
             "wikidata_confidence": 55
-          },
-          {
-            "title": "Requested By",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "2160p"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7210,29 +5452,9 @@
             "wikidata_id": "Q1686936",
             "imdb_id": "tt0862856",
             "wikidata_confidence": 55
-          },
-          {
-            "title": "~ Five Wicked Stories On Halloween Night. ~",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "2160p"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "#31daysofhorror #31daysofhalloween",
-            "year": "2007",
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7261,6 +5483,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7287,17 +5510,9 @@
               "https://transfer.it/t/lptuzYh3RJ7D"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "~ A Singer Becomes The Obsession Of A Horribly",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7313,7 +5528,8 @@
       "url": "https://x.com/MrCoopersVideo/status/1983417890297815272",
       "scraped_at": "2025-11-12T06:07:42.221Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Dune Collection",
             "year": null,
@@ -7355,6 +5571,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7387,6 +5604,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7419,6 +5637,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7445,17 +5664,9 @@
               "https://drive.google.com/drive/folders/"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "13qzof5nxn8xnjms9a-jhqi1oluutcbip",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7471,7 +5682,8 @@
       "url": "https://x.com/Blue_J_Cinema/status/1982319115705655653",
       "scraped_at": "2025-11-12T06:07:42.222Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "A Hidden Gem That Needs To Be On Your Watchlist",
             "year": null,
@@ -7519,35 +5731,9 @@
               "https://transfer.it/t/QaBgVRt1nJiK"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "The Cannes Film Festival Is A World-class Celebration Of Cinema In France, Showcasing Films Of All Kinds",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "From Big International Premieres To Indie Gems, Shorts, Documentaries, And Student Films.",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "A True Spotlight On Global Storytelling.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7580,6 +5766,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7595,7 +5782,8 @@
       "url": "https://x.com/MrCoopersVideo/status/1983034447294542102",
       "scraped_at": "2025-11-12T06:07:57.224Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Daydream Nation",
             "year": "2010",
@@ -7650,28 +5838,9 @@
             "wikidata_id": "Q135076259",
             "steam_id": "3553580",
             "wikidata_confidence": 30
-          },
-          {
-            "title": "¬Old College Friends Reunite For A Trip",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Requested By @Alexinnnnnnnn",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7688,6 +5857,7 @@
       "scraped_at": "2025-11-12T06:07:57.224Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -7718,20 +5888,9 @@
             "wikidata_id": "Q2300632",
             "imdb_id": "tt0114614",
             "wikidata_confidence": 105
-          },
-          {
-            "title": "---Quoted Tweet",
-            "year": null,
-            "type": null,
-            "quality": [
-              "1080p",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7747,7 +5906,8 @@
       "url": "https://x.com/santodrive2/status/1983449903226589199",
       "scraped_at": "2025-11-12T06:08:12.226Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "1080p (6.28 Gb) Subs",
             "year": null,
@@ -7779,7 +5939,7 @@
         "media_items": [
           {
             "title": "The Best Vampire Movie. Ever.",
-            "year": "2009",
+            "year": null,
             "type": "film",
             "quality": [],
             "season_episode_info": null,
@@ -7789,6 +5949,7 @@
             "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7804,7 +5965,8 @@
       "url": "https://x.com/3GoldBalls/status/1983021041376239798",
       "scraped_at": "2025-11-12T06:08:12.227Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "Holy Shit, I’ve Seen That Ad Before…",
             "year": null,
@@ -7827,9 +5989,7 @@
             "title": "Damn, That’s Crazy.",
             "year": null,
             "type": null,
-            "quality": [
-              "tb"
-            ],
+            "quality": [],
             "season_episode_info": null,
             "associated_urls": [],
             "wikidata_enhanced": false
@@ -7861,17 +6021,9 @@
               "https://transfer.it/t/feRRy0hFDRbA"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "~ Seven Friends Struggle With A Demon They First",
-            "year": "1990",
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7900,22 +6052,9 @@
             "wikidata_enhanced": true,
             "wikidata_id": "Q3399693",
             "wikidata_confidence": 70
-          },
-          {
-            "title": "4k Uhd Remux (75.11gb)",
-            "year": null,
-            "type": null,
-            "quality": [
-              "4k",
-              "uhd",
-              "remux",
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -7931,7 +6070,8 @@
       "url": "https://x.com/CinemaScene404/status/1983186743819153613",
       "scraped_at": "2025-11-12T06:08:27.230Z",
       "parsed_media": {
-        "media_items": [
+        "media_items": [],
+        "media_interest_items": [
           {
             "title": "in eternal sunshine of the spotless mind",
             "year": "2004",
@@ -7974,6 +6114,7 @@
       "scraped_at": "2025-11-12T06:08:42.264Z",
       "parsed_media": {
         "media_items": [],
+        "media_interest_items": [],
         "unassociated_urls": [],
         "skipped_reason": "no_media_indicators"
       }
@@ -8008,61 +6149,9 @@
               "https://transfer.it/t/yaXFe0sj2BrT"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "John Wick",
-            "year": "2014",
-            "type": "film",
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q15732802",
-            "imdb_id": "tt2911666",
-            "wikidata_confidence": 105
-          },
-          {
-            "title": "Chapter 2",
-            "year": "2017",
-            "type": "unknown",
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q49473234",
-            "imdb_id": "tt6157742",
-            "wikidata_confidence": 105
-          },
-          {
-            "title": "Chapter 3 - Parabellum",
-            "year": "2019",
-            "type": null,
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Chapter 4",
-            "year": "2023",
-            "type": "unknown",
-            "quality": [
-              "gb"
-            ],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q21713371",
-            "imdb_id": "tt2248422",
-            "wikidata_confidence": 80
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -8089,20 +6178,9 @@
               "https://gofile.io/d/sfJl6z"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "Satisfactory",
-            "year": "2001",
-            "type": "game",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": true,
-            "wikidata_id": "Q62049495",
-            "imdb_id": "tt11213158",
-            "wikidata_confidence": 80
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -8133,6 +6211,7 @@
             "wikidata_confidence": 95
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     },
@@ -8166,35 +6245,18 @@
               "https://transfer.it/t/SmzZQN1BjRpL"
             ],
             "wikidata_enhanced": false
-          },
-          {
-            "title": "A Selection Of 47 Works",
-            "year": null,
-            "type": "film",
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
-          },
-          {
-            "title": "Brought Together Into One Continuous Audiovisual Journey.",
-            "year": null,
-            "type": null,
-            "quality": [],
-            "season_episode_info": null,
-            "associated_urls": [],
-            "wikidata_enhanced": false
           }
         ],
+        "media_interest_items": [],
         "unassociated_urls": []
       }
     }
   ],
   "parser_stats": {
     "tweets_processed": 192,
-    "tweets_with_media": 181,
-    "total_media_items": 405,
-    "wikidata_enhanced": 86,
-    "parsed_at": "2025-11-16T00:41:05.440Z"
+    "tweets_with_media": 133,
+    "total_media_items": 149,
+    "wikidata_enhanced": 53,
+    "parsed_at": "2025-11-16T09:25:26.966Z"
   }
 }

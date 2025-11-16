@@ -6,9 +6,14 @@
   "scripts": {
     "parse": "node src/parserIndex.js",
     "test": "node src/parserIndex.js test/sample-input.json output/parsed.json",
+    "qa": "node test/qa",
     "help": "node src/parserIndex.js --help"
   },
-  "keywords": ["parser", "media", "twitter"],
+  "keywords": [
+    "parser",
+    "media",
+    "twitter"
+  ],
   "author": "",
   "license": "MIT"
 }

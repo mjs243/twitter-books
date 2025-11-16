@@ -154,15 +154,28 @@ class Extractors {
 
   extractType(block) {
     const lower = block.toLowerCase();
+
+    // existing typed keywords from config
     for (const [type, keywords] of Object.entries(
       this.config.type_keywords
     )) {
       for (const keyword of keywords) {
         if (lower.includes(keyword.toLowerCase())) {
-          return type.replace("_", " ");
+          return type.replace('_', ' ');
         }
       }
     }
+
+    // extra heuristic: game-specific language
+    if (
+      lower.includes('official game of the movie') ||
+      lower.includes('drm') ||
+      lower.includes('playing') ||
+      lower.includes('run on modern system')
+    ) {
+      return 'game';
+    }
+
     return null;
   }
 

@@ -12,28 +12,85 @@ const WikiDataClient = require('./wikidataClient');
 const URL_PROTO_BREAK_RE = /(https?:\/\/)\s*\n+\s*/gi;
 const URL_RE = /https?:\/\/[^\s\])<>(“”"'’]+/gi;
 
-/**
- * Repairs broken URLs across newlines and extracts all http(s) links
- * from text + quoted_text + links arrays.
- */
-function collectUrlsFromTweet(tweet, unifiedText) {
+function collectUrlsFromTweet(tweet, unifiedForUrls) {
   const pieces = [
     ...(tweet.links || []),
     ...(tweet.quoted_links || []),
-    unifiedText,
+    unifiedForUrls || '',
   ];
 
-  const raw = pieces.join(' ');
-  const repaired = raw.replace(URL_PROTO_BREAK_RE, '$1');
+  // join and repair multi-line URLs
+  const raw = pieces.join('\n');
+  const repairedText = repairBrokenUrlsInText(raw);
 
   const urls = new Set();
-  const matches = repaired.match(URL_RE) || [];
-  for (let u of matches) {
-    // strip trailing punctuation
-    u = u.replace(/[.,;:!?]+$/, '');
-    urls.add(u);
+  const matches = repairedText.match(URL_RE) || [];
+
+  for (let url of matches) {
+    url = url.replace(/[.,;:!?]+$/, '');
+    urls.add(url);
   }
+
   return Array.from(urls);
+}
+
+function repairBrokenUrlsInText(text) {
+  const lines = text.split(/\r?\n/);
+  const out = [];
+
+  for (let i = 0; i < lines.length; i += 1) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    // case 1: line is just "https://" or "http://"
+    if (/^https?:\/\/$/i.test(trimmed)) {
+      let url = trimmed;
+      let j = i + 1;
+      while (j < lines.length) {
+        const next = lines[j].trim();
+        if (!next) {
+          j += 1;
+          continue;
+        }
+        // stop if next line is a new label or another protocol
+        if (/^(https?:\/\/|\w+:)/i.test(next)) break;
+        url += next;
+        j += 1;
+        // stop if it clearly looks done (… or space)
+        if (/[.…\s]/.test(next)) break;
+      }
+      out.push(url);
+      i = j - 1;
+      continue;
+    }
+
+    // case 2: "https://domain/.../" then id on next line
+    if (/https?:\/\/\S+\/$/i.test(trimmed) && i + 1 < lines.length) {
+      const next = lines[i + 1].trim();
+      if (/^[A-Za-z0-9/?&=_.-]+(\?.*)?$/.test(next)) {
+        out.push(trimmed + next);
+        i += 1;
+        continue;
+      }
+    }
+
+    // case 3: "https://vkvideo.ru/playlist/-2299" + "37903_23"
+    if (/https?:\/\/\S+$/i.test(trimmed) && i + 1 < lines.length) {
+      const next = lines[i + 1].trim();
+      if (
+        /^[A-Za-z0-9_/?&=.-]+$/.test(next) &&
+        !/^https?:\/\//i.test(next)
+      ) {
+        out.push(trimmed + next);
+        i += 1;
+        continue;
+      }
+    }
+
+    out.push(line);
+  }
+
+  return out.join('\n');
 }
 
 /* --------------- Watch-list helpers ----------- */
@@ -50,9 +107,12 @@ function extractWatchItems(unifiedText) {
   if (!WATCH_TRIGGERS.some((re) => re.test(lower))) return [];
 
   const results = [];
-  const lineRe = /[“”"]([^“”"]+)[“”"]|([A-Z][A-Za-z0-9 :\-’']+)\s*\((\d{4})\)/g;
+  // either "Title" or Title (1990)
+  const re =
+    /[“”"]([^“”"]+)[“”"]|([A-Z][A-Za-z0-9 :\-’']+?)\s*\((\d{4})\)/g;
+
   let m;
-  while ((m = lineRe.exec(unifiedText)) !== null) {
+  while ((m = re.exec(unifiedText)) !== null) {
     const title = (m[1] || m[2] || '').trim();
     const year = m[3] || null;
     if (!title) continue;
@@ -68,6 +128,7 @@ function extractWatchItems(unifiedText) {
       isWatch: true,
     });
   }
+
   return results;
 }
 
@@ -85,6 +146,14 @@ class MediaParser {
     if (this.config.wikidata?.enabled) {
       this.wikidata = new WikiDataClient(this.config.wikidata.cache_dir);
     }
+
+    this.mediaTypesForWikidata = new Set([
+      'film',
+      'tv series',
+      'tv film',
+      'documentary',
+      'game',
+    ]);
   }
 
   async parseFile(inputPath, outputPath) {
@@ -120,8 +189,8 @@ class MediaParser {
 
       console.log(
         `\n✅ parsing complete: ${stats.tweets_processed} tweets, ` +
-          `${stats.total_media_items} items, ` +
-          `${stats.wikidata_enhanced} wikidata-enhanced`
+        `${stats.total_media_items} items, ` +
+        `${stats.wikidata_enhanced} wikidata-enhanced`
       );
 
       return output;
@@ -132,61 +201,100 @@ class MediaParser {
   }
 
   async parseTweet(tweet) {
-    const unifiedText = this.textProcessor.unifyText(
-      tweet.text,
-      tweet.quoted_text
-    );
+    const mainText = tweet.text || '';
+    const quotedText = tweet.quoted_text || '';
 
-    // 1. URLs (with line-break repair)
-    const allUrls = collectUrlsFromTweet(tweet, unifiedText);
+    // use both for URLs, but only mainText for titles
+    const unifiedForUrls = [mainText, quotedText].filter(Boolean).join('\n');
 
-    // 2. Watch-list items
-    const watchItems = extractWatchItems(unifiedText);
+    const allUrls = collectUrlsFromTweet(tweet, unifiedForUrls);
+    const watchItems = extractWatchItems(unifiedForUrls);
 
-    // 3. If nothing suggests media, bail early
+    // if literally nothing looks like media, bail early
     if (
-      !watchItems.length &&
       !allUrls.length &&
-      !this.hasMediaIndicators(unifiedText)
+      !watchItems.length &&
+      !this.hasMediaIndicators(mainText)
     ) {
       return {
         ...tweet,
         parsed_media: {
           media_items: [],
+          media_interest_items: [],
           unassociated_urls: [],
           skipped_reason: 'no_media_indicators',
         },
       };
     }
 
-    const normalized = this.textProcessor.normalize(unifiedText);
-    const blocks = this.textProcessor.splitIntoBlocks(normalized);
+    const normalizedMain = this.textProcessor.normalize(mainText);
+    const blocks = this.textProcessor.splitIntoBlocks(normalizedMain);
 
-    const mediaItems = [...watchItems];
+    const parsedItems = [];
     const usedUrls = new Set();
 
+    // 1. parse main text blocks into items / collections
     for (const block of blocks) {
       const split = this.collectionSplitter.split(block);
 
       if (!split.isCollection) {
         const item = await this.parseSingleBlock(block, allUrls, usedUrls);
-        if (item) mediaItems.push(item);
+        if (item) parsedItems.push(item);
       } else {
         const collection = this.buildCollectionFromSplit(
           split,
           allUrls,
           usedUrls
         );
-        if (collection) mediaItems.push(collection);
+        if (collection) parsedItems.push(collection);
       }
     }
 
-    const unassociated = allUrls.filter((u) => !usedUrls.has(u));
+    // 2. classify items into downloads vs interest
+    const hasAnyUrl = allUrls.length > 0;
+    const mediaItems = [];
+    const mediaInterestItems = [];
+
+    // watch items always go to interest
+    for (const w of watchItems) {
+      mediaInterestItems.push(w);
+    }
+
+    for (const item of parsedItems) {
+      const hasUrls =
+        Array.isArray(item.associated_urls) &&
+        item.associated_urls.length > 0;
+
+      if (!hasAnyUrl) {
+        // tweet has no URLs at all → this is all media-of-interest
+        mediaInterestItems.push(item);
+        continue;
+      }
+
+      if (item.isWatch) {
+        mediaInterestItems.push(item);
+      } else if (item.isCollection || hasUrls) {
+        mediaItems.push(item);
+      } else {
+        // noisy descriptive line with no URL in a tweet that *does* have URLs → drop
+      }
+    }
+
+    this.finalizeUrlAssignments(mediaItems, allUrls);
+
+    // recompute used URLs after finalization
+    const usedNow = new Set();
+    for (const item of mediaItems) {
+      (item.associated_urls || []).forEach((u) => usedNow.add(u));
+    }
+
+    const unassociated = allUrls.filter((u) => !usedNow.has(u));
 
     return {
       ...tweet,
       parsed_media: {
         media_items: mediaItems,
+        media_interest_items: mediaInterestItems,
         unassociated_urls: unassociated,
       },
     };
@@ -196,17 +304,52 @@ class MediaParser {
     const titleData = this.extractors.extractTitle(block);
     if (!titleData) return null;
 
+    const year = titleData.year || this.extractors.extractYear(block);
+    const type = this.extractors.extractType(block);
+    const quality = this.extractors.extractQuality(block);
+    const seasonInfo = this.extractors.extractSeasonInfo(block);
+
+    const associated = this.urlAssociator.associate(block, allUrls, usedUrls);
+
+    // quick filter: titles that are clearly junk
+    const titleLower = titleData.title.toLowerCase();
+    const badTitleStarts = [
+      'download links',
+      'download link',
+      'in this folder you\'ll find',
+      'bonus',
+      'movies',
+      'anime',
+      'manga',
+      'series',
+      'complete series',
+      'full color',
+      'one hundred',
+      'quoted tweet',
+    ];
+    if (
+      badTitleStarts.some((p) => titleLower.startsWith(p)) &&
+      associated.length === 0
+    ) {
+      return null;
+    }
+
     let item = {
       title: titleData.title,
-      year: titleData.year || this.extractors.extractYear(block),
-      type: this.extractors.extractType(block),
-      quality: this.extractors.extractQuality(block),
-      season_episode_info: this.extractors.extractSeasonInfo(block),
-      associated_urls: this.urlAssociator.associate(block, allUrls, usedUrls),
+      year: year || null,
+      type: type,
+      quality,
+      season_episode_info: seasonInfo,
+      associated_urls: associated,
       wikidata_enhanced: false,
     };
 
-    if (this.wikidata) {
+    // call wikidata only if this actually looks like media
+    const looksLikeMedia =
+      (year && year.length === 4) ||
+      (type && this.mediaTypesForWikidata.has(type));
+
+    if (this.wikidata && looksLikeMedia) {
       try {
         const res = await this.wikidata.searchMedia(item.title, item.year);
         if (res && res.confidence >= this.config.wikidata.min_confidence) {
@@ -233,7 +376,7 @@ class MediaParser {
   buildCollectionFromSplit(split, allUrls, usedUrls) {
     if (!split || !split.franchise) return null;
 
-    // just treat the entire set of URLs as applying to the collection
+    // assign *all remaining* URLs to this collection
     const urlsForCollection = [];
     for (const url of allUrls) {
       if (!usedUrls.has(url)) {
@@ -246,7 +389,7 @@ class MediaParser {
       title: split.franchise,
       year: split.items?.[0]?.year || null,
       type: 'collection',
-      quality: [], // could aggregate later
+      quality: [],
       season_episode_info: null,
       isCollection: true,
       items_included: split.items || [],
@@ -257,7 +400,6 @@ class MediaParser {
 
   hasMediaIndicators(text) {
     const lower = text.toLowerCase();
-
     const hasQuality = this.config.quality_keywords.some((kw) =>
       lower.includes(kw.toLowerCase())
     );
@@ -265,7 +407,6 @@ class MediaParser {
       lower.includes(d.toLowerCase())
     );
     const hasYear = /\b(19|20)\d{2}\b/.test(lower);
-
     return hasQuality || hasDomain || hasYear;
   }
 
@@ -288,6 +429,53 @@ class MediaParser {
       wikidata_enhanced: wikidataEnhanced,
       parsed_at: new Date().toISOString(),
     };
+  }
+
+  finalizeUrlAssignments(mediaItems, allUrls) {
+    if (!allUrls.length || !mediaItems.length) return;
+
+    const used = new Set();
+    for (const item of mediaItems) {
+      (item.associated_urls || []).forEach((u) => used.add(u));
+    }
+
+    const unusedUrls = allUrls.filter((u) => !used.has(u));
+
+    if (!unusedUrls.length) return;
+
+    // "primary" items are collections or items that already have URLs
+    const primary = mediaItems.filter(
+      (i) =>
+        i.isCollection ||
+        (Array.isArray(i.associated_urls) && i.associated_urls.length > 0)
+    );
+
+    if (primary.length === 1) {
+      // single collection / single main item → give it ALL remaining URLs
+      const target = primary[0];
+      if (!Array.isArray(target.associated_urls)) {
+        target.associated_urls = [];
+      }
+      for (const url of unusedUrls) {
+        target.associated_urls.push(url);
+        used.add(url);
+      }
+      return;
+    }
+
+    // multiple primary items:
+    // assign remaining URLs in order to items that currently have none
+    const noUrlItems = mediaItems.filter(
+      (i) => !i.associated_urls || i.associated_urls.length === 0
+    );
+
+    let idx = 0;
+    for (const item of noUrlItems) {
+      if (idx >= unusedUrls.length) break;
+      item.associated_urls = [unusedUrls[idx]];
+      used.add(unusedUrls[idx]);
+      idx += 1;
+    }
   }
 }
 

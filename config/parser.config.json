@@ -22,7 +22,8 @@
             "tv series",
             "series",
             "season",
-            "episodes"
+            "episodes",
+            "anime"
         ],
         "film": [
             "film",
@@ -45,6 +46,13 @@
             "ps5",
             "switch",
             "steam"
+        ],
+        "manga": [
+            "manga"
+        ],
+        "book": [
+            "novel",
+            "book"
         ]
     },
     "title_stopwords": [
