@@ -155,25 +155,25 @@ class Extractors {
   extractType(block) {
     const lower = block.toLowerCase();
 
-    // existing typed keywords from config
-    for (const [type, keywords] of Object.entries(
-      this.config.type_keywords
-    )) {
+    // strong game signals first, should be rare
+    if (
+      lower.includes('official game of the movie') ||
+      lower.includes('official game') ||
+      lower.includes('drm') ||
+      lower.includes('run on modern system') ||
+      lower.includes('check readme before playing') ||
+      lower.includes('extract and enjoy') // very common in game dumps
+    ) {
+      return 'game';
+    }
+
+    // config driven, film type keywords
+    for (const [type, keywords] of Object.entries(this.config.type_keywords)) {
       for (const keyword of keywords) {
         if (lower.includes(keyword.toLowerCase())) {
           return type.replace('_', ' ');
         }
       }
-    }
-
-    // extra heuristic: game-specific language
-    if (
-      lower.includes('official game of the movie') ||
-      lower.includes('drm') ||
-      lower.includes('playing') ||
-      lower.includes('run on modern system')
-    ) {
-      return 'game';
     }
 
     return null;

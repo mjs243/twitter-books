@@ -190,7 +190,7 @@
           {
             "title": "Omg Peter Jackson's King Kong",
             "year": null,
-            "type": "film",
+            "type": "game",
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [
@@ -3426,7 +3426,7 @@
           {
             "title": "Condemned",
             "year": "2005",
-            "type": "unknown",
+            "type": "game",
             "quality": [],
             "season_episode_info": null,
             "associated_urls": [
@@ -6257,6 +6257,6 @@
     "tweets_with_media": 133,
     "total_media_items": 149,
     "wikidata_enhanced": 53,
-    "parsed_at": "2025-11-16T09:25:26.966Z"
+    "parsed_at": "2025-11-17T21:18:52.672Z"
   }
 }

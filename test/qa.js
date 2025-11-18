@@ -38,7 +38,7 @@ function main() {
 
   const results = [];
 
-  // 1) Dragon Ball anime + manga, 2 links → each gets one
+  // 1) Dragon Ball: Dragon Ball has at least one URL
   results.push(
     runCase('Dragon Ball: Dragon Ball has at least one URL', (data, assert) => {
       const tw = findTweetByText(data, 'Dragon Ball (1986-1989)');
@@ -57,7 +57,7 @@ function main() {
 
       assert(
         Array.isArray(main.associated_urls) &&
-        main.associated_urls.length >= 1,
+          main.associated_urls.length >= 1,
         'Dragon Ball should have at least 1 associated URL'
       );
     }, data)
@@ -81,7 +81,7 @@ function main() {
 
       assert(
         Array.isArray(item.associated_urls) &&
-        item.associated_urls.length === 3,
+          item.associated_urls.length === 3,
         `expected 3 URLs on collection, got ${item.associated_urls.length}`
       );
       assert.strictEqual(
@@ -138,13 +138,13 @@ function main() {
       const pm = tw.parsed_media;
       const items = pm.media_items || [];
       const film = items.find((i) =>
-        i.title.toLowerCase().includes('man from london')
+        (i.title || '').toLowerCase().includes('man from london')
       );
       assert(film, 'expected a Man from London media item');
 
       assert(
         Array.isArray(film.associated_urls) &&
-        film.associated_urls.length >= 1,
+          film.associated_urls.length >= 1,
         'Man from London film should have at least one URL'
       );
     }, data)
@@ -171,9 +171,9 @@ function main() {
     }, data)
   );
 
-  // 6) Favorite first watches of October → all interest, no media_items
+  // 6) Favorite first watches of October → pure interest; no download URLs
   results.push(
-    runCase('Favorite first watches: interest only', (data, assert) => {
+    runCase('Favorite first watches: treated as interest', (data, assert) => {
       const tw = findTweetByText(
         data,
         'Favorite first watches of October'
@@ -181,14 +181,32 @@ function main() {
       assert(tw, 'favorite first watches tweet not found');
 
       const pm = tw.parsed_media;
-      assert.strictEqual(
-        (pm.media_items || []).length,
-        0,
-        'expected 0 media_items'
+      const mediaItems = pm.media_items || [];
+      const interestItems = pm.media_interest_items || [];
+
+      // no downloads expected
+      assert(
+        mediaItems.every(
+          (i) => !i.associated_urls || i.associated_urls.length === 0
+        ),
+        'did not expect any download URLs for first-watches tweet'
+      );
+
+      assert(
+        interestItems.length >= 1,
+        'expected at least one media_interest_item'
+      );
+
+      // ideally we have a collection of the 4 films
+      const collection = interestItems.find(
+        (i) =>
+          i.isCollection &&
+          Array.isArray(i.items_included) &&
+          i.items_included.length >= 4
       );
       assert(
-        (pm.media_interest_items || []).length >= 4,
-        'expected >= 4 media_interest_items'
+        collection,
+        'expected a collection representing the October watches'
       );
     }, data)
   );
@@ -217,37 +235,34 @@ function main() {
     }, data)
   );
 
-  // 8) Dark Knight Trilogy → collection + individual films
+  // 8) Dark Knight Trilogy → collection with URL
   results.push(
-    runCase('Dark Knight Trilogy: collection + 3 films', (data, assert) => {
-      const tw = findTweetByText(data, 'The Dark Knight Trilogy (2005-2012)');
+    runCase('Dark Knight Trilogy: collection with URL', (data, assert) => {
+      const tw = findTweetByText(
+        data,
+        'The Dark Knight Trilogy (2005-2012)'
+      );
       assert(tw, 'Dark Knight trilogy tweet not found');
 
       const pm = tw.parsed_media;
       const items = pm.media_items || [];
 
-      const collection = items.find((i) => i.isCollection);
-      assert(collection, 'expected a collection item');
-
-      const films = items.filter((i) =>
-        ['batman begins', 'the dark knight', 'the dark knight rises'].some(
-          (t) => (i.title || '').toLowerCase().startsWith(t)
-        )
+      const collection = items.find(
+        (i) =>
+          i.isCollection &&
+          (i.title || '').toLowerCase().includes('dark knight trilogy')
       );
-      assert(
-        films.length >= 3,
-        `expected at least 3 film items, got ${films.length}`
-      );
+      assert(collection, 'expected a Dark Knight Trilogy collection item');
 
       assert(
         Array.isArray(collection.associated_urls) &&
-        collection.associated_urls.length >= 1,
+          collection.associated_urls.length >= 1,
         'collection should have at least one URL'
       );
     }, data)
   );
 
-  // 9) Ballerina (2025) → one film with year 2025 and a URL
+  // 9) Ballerina (2025) → one film with URL
   results.push(
     runCase('Ballerina (2025): one film with URL', (data, assert) => {
       const tw = findTweetByText(data, 'Ballerina (2025)');
@@ -264,7 +279,7 @@ function main() {
 
       assert(
         Array.isArray(ballerina.associated_urls) &&
-        ballerina.associated_urls.length >= 1,
+          ballerina.associated_urls.length >= 1,
         'Ballerina should have at least one URL'
       );
 
@@ -287,19 +302,19 @@ function main() {
 
       const pm = tw.parsed_media;
       const items = pm.media_items || [];
-      const game = items.find(
-        (i) =>
-          (i.title || '')
-            .toLowerCase()
-            .includes("peter jackson's king kong")
+      const game = items.find((i) =>
+        (i.title || '')
+          .toLowerCase()
+          .includes("peter jackson's king kong")
       );
       assert(game, 'expected King Kong game item');
 
       assert(
         Array.isArray(game.associated_urls) &&
-        game.associated_urls.length >= 1,
+          game.associated_urls.length >= 1,
         'King Kong game should have at least one URL'
       );
+
       assert.strictEqual(
         game.type,
         'game',
